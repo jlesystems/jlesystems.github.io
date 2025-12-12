@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://jle.systems/en/home</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/home" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/home" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/home" />
+  </url>
+  <url>
+    <loc>https://jle.systems/de/home</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/home" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/home" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/home" />
+  </url>
+  <url>
+    <loc>https://jle.systems/en/solutions</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/solutions" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/solutions" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/solutions" />
+  </url>
+  <url>
+    <loc>https://jle.systems/de/solutions</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/solutions" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/solutions" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/solutions" />
+  </url>
+  <url>
+    <loc>https://jle.systems/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/contact" />
+  </url>
+  <url>
+    <loc>https://jle.systems/de/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/contact" />
+  </url>
+  <url>
+    <loc>https://jle.systems/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/about" />
+  </url>
+  <url>
+    <loc>https://jle.systems/de/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/about" />
+  </url>
+  <url>
+    <loc>https://jle.systems/en/legal-notice</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/legal-notice" />
+  </url>
+  <url>
+    <loc>https://jle.systems/de/legal-notice</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/legal-notice" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/legal-notice" />
+  </url>
+  <url>
+    <loc>https://jle.systems/en/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/privacy-policy" />
+  </url>
+  <url>
+    <loc>https://jle.systems/de/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/privacy-policy" />
+  </url>
+  <url>
+    <loc>https://jle.systems/en/info</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/info" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/info" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/info" />
+  </url>
+  <url>
+    <loc>https://jle.systems/de/info</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/info" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/info" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/info" />
+  </url>
+</urlset>
