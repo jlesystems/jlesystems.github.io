@@ -73,6 +73,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/privacy-policy" />
   </url>
   <url>
+    <loc>https://jle.systems/en/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/terms" />
+  </url>
+  <url>
+    <loc>https://jle.systems/de/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/terms" />
+  </url>
+  <url>
     <loc>https://jle.systems/en/info</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/info" />
     <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/info" />
