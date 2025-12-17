@@ -1,4 +1,4 @@
-import{b4 as s,j as e}from"./mdx-runtime-B_s9jK3V.js";const l=["/portrait.jpg"];function r(i){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",h3:"h3",img:"img",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...s(),...i.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Über mich"}),`
+import{j as e}from"./loading-D6bB4KI5.js";import{a6 as s}from"./mdx-runtime-BcS6nZhi.js";const h=["/portrait.jpg"];function r(i){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",h3:"h3",img:"img",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...s(),...i.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Über mich"}),`
 `,e.jsx(n.p,{children:e.jsx(n.img,{src:"/portrait.jpg",alt:"Portrait von Ing. Julian Lamplmair"})}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Erfahrung trifft Leidenschaft."})]}),`
 `,e.jsxs(n.p,{children:["Hinter JLE Systems stehe ich, ",e.jsx(n.strong,{children:"Ing. Julian Lamplmair"}),". Ich bin nicht nur Entwickler, sondern Ingenieur aus Leidenschaft. Mein Ziel ist es, die Zuverlässigkeit industrieller Standards mit der Agilität moderner Softwareentwicklung zu vereinen."]}),`
@@ -50,4 +50,4 @@ import{b4 as s,j as e}from"./mdx-runtime-B_s9jK3V.js";const l=["/portrait.jpg"];
 `,e.jsx(n.p,{children:"Eine detaillierte Übersicht über alle möglichen Wege mich zu kontaktieren finden Sie auf der Kontaktseite."}),`
 `,e.jsxs(n.blockquote,{children:[`
 `,e.jsxs(n.p,{children:[e.jsx(n.a,{href:"/contact",children:e.jsx(n.strong,{children:"Kontakt"})})," - alle Kontaktmöglichkeiten"]}),`
-`]})]})}function h(i={}){const{wrapper:n}={...s(),...i.components};return n?e.jsx(n,{...i,children:e.jsx(r,{...i})}):r(i)}export{h as default,l as images};
+`]})]})}function d(i={}){const{wrapper:n}={...s(),...i.components};return n?e.jsx(n,{...i,children:e.jsx(r,{...i})}):r(i)}export{d as default,h as images};

@@ -1,4 +1,4 @@
-import{b4 as s,j as e}from"./mdx-runtime-B_s9jK3V.js";function r(i){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...i.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Informationen"}),`
+import{j as e}from"./loading-D6bB4KI5.js";import{a6 as s}from"./mdx-runtime-BcS6nZhi.js";function r(i){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...i.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Informationen"}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Alles im Blick."})]}),`
 `,e.jsx(n.p,{children:"Ein guter Überblick ist immer wichtig. Die wichtigsten Informationen zu meinem Unternehmen finden Sie hier."}),`
 `,e.jsx(n.h2,{children:"Steckbrief"}),`
@@ -32,4 +32,4 @@ import{b4 as s,j as e}from"./mdx-runtime-B_s9jK3V.js";function r(i){const n={a:"
 `]}),`
 `,e.jsxs(n.blockquote,{children:[`
 `,e.jsx(n.p,{children:e.jsx(n.a,{href:"/legal-notice",children:e.jsx(n.strong,{children:"Impressum"})})}),`
-`]})]})}function h(i={}){const{wrapper:n}={...s(),...i.components};return n?e.jsx(n,{...i,children:e.jsx(r,{...i})}):r(i)}export{h as default};
+`]})]})}function l(i={}){const{wrapper:n}={...s(),...i.components};return n?e.jsx(n,{...i,children:e.jsx(r,{...i})}):r(i)}export{l as default};

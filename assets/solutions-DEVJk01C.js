@@ -1,4 +1,4 @@
-import{b4 as s,j as e}from"./mdx-runtime-B_s9jK3V.js";function i(r){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Lösungen"}),`
+import{j as e}from"./loading-D6bB4KI5.js";import{a6 as s}from"./mdx-runtime-BcS6nZhi.js";function i(r){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Lösungen"}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Präzision trifft Innovation."})]}),`
 `,e.jsxs(n.p,{children:["Ich biete keine Standardlösungen von der Stange, sondern maßgeschneiderte Systeme, die genau dort ansetzen, wo Standardsoftware an ihre Grenzen stößt. Mein Anspruch: ",e.jsx(n.strong,{children:"Geplant wie ein Ingenieur – Gebaut wie ein Entwickler"}),"."]}),`
 `,e.jsx(n.h2,{children:"[HASH:software] 1. Individuelle Software"}),`
@@ -61,4 +61,4 @@ import{b4 as s,j as e}from"./mdx-runtime-B_s9jK3V.js";function i(r){const n={a:"
 `,e.jsx(n.p,{children:"Sie bevorzugen E-Mail oder Telefon? Alle Wege finden Sie hier:"}),`
 `,e.jsxs(n.blockquote,{children:[`
 `,e.jsxs(n.p,{children:[e.jsx(n.a,{href:"/contact",children:e.jsx(n.strong,{children:"Kontakt"})})," — zur Kontaktseite"]}),`
-`]})]})}function h(r={}){const{wrapper:n}={...s(),...r.components};return n?e.jsx(n,{...r,children:e.jsx(i,{...r})}):i(r)}export{h as default};
+`]})]})}function l(r={}){const{wrapper:n}={...s(),...r.components};return n?e.jsx(n,{...r,children:e.jsx(i,{...r})}):i(r)}export{l as default};

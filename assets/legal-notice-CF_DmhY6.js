@@ -1,4 +1,4 @@
-import{b4 as s,j as e}from"./mdx-runtime-B_s9jK3V.js";function i(r){const n={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Impressum"}),`
+import{j as e}from"./loading-D6bB4KI5.js";import{a6 as s}from"./mdx-runtime-BcS6nZhi.js";function i(r){const n={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Impressum"}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Version:"})," 02. Dezember 2025"]}),`
 `,e.jsx(n.p,{children:"Rechtliche Informationen laut § 5 E-Commerce Gesetz, § 63 Gewerbeordnung und Offenlegungspflicht laut § 25 Mediengesetz zum Geschäftsbetrieb unter der Bezeichnung „JLE Systems“."}),`
 `,e.jsx(n.h2,{children:"JLE Systems"}),`
@@ -48,4 +48,4 @@ import{b4 as s,j as e}from"./mdx-runtime-B_s9jK3V.js";function i(r){const n={a:"
 `]}),`
 `,e.jsx(n.hr,{}),`
 `,e.jsx(n.h3,{children:"Blattlinie:"}),`
-`,e.jsx(n.p,{children:"Informationen über Waren und Dienstleistungen des Unternehmens sowie Förderung des Absatzes derselben."})]})}function h(r={}){const{wrapper:n}={...s(),...r.components};return n?e.jsx(n,{...r,children:e.jsx(i,{...r})}):i(r)}function t(r){return e.jsx(h,{})}function l(r={}){const{wrapper:n}={...s(),...r.components};return n?e.jsx(n,{...r,children:e.jsx(t,{...r})}):t()}export{l as default};
+`,e.jsx(n.p,{children:"Informationen über Waren und Dienstleistungen des Unternehmens sowie Förderung des Absatzes derselben."})]})}function h(r={}){const{wrapper:n}={...s(),...r.components};return n?e.jsx(n,{...r,children:e.jsx(i,{...r})}):i(r)}function t(r){return e.jsx(h,{})}function d(r={}){const{wrapper:n}={...s(),...r.components};return n?e.jsx(n,{...r,children:e.jsx(t,{...r})}):t()}export{d as default};

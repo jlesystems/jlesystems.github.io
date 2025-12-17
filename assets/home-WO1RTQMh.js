@@ -1,4 +1,4 @@
-import{b4 as s,j as e}from"./mdx-runtime-B_s9jK3V.js";function i(r){const n={a:"a",blockquote:"blockquote",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Geplant wie ein Ingenieur – Gebaut wie ein Entwickler"}),`
+import{j as e}from"./loading-D6bB4KI5.js";import{a6 as s}from"./mdx-runtime-BcS6nZhi.js";function i(r){const n={a:"a",blockquote:"blockquote",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Geplant wie ein Ingenieur – Gebaut wie ein Entwickler"}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"JLE Systems"})," — Ihr Partner für Softwareentwicklung und Systemintegration."]}),`
 `,e.jsxs(n.p,{children:["Als Ingenieur für Mechatronik mit mehrjähriger Erfahrung in der industriellen Forschung und Entwicklung und als technischer Leiter eines SaaS-Unternehmens fokussiere ich mich seit 2020 auf ",e.jsx(n.strong,{children:"Softwareentwicklung"})," und ",e.jsx(n.strong,{children:"Systemintegration"})," mit hohen Qualitäts- und Funktionsansprüchen – von der ersten Idee bis zur nahtlosen Integration in reale Prozesse. Zusammengefasst biete ich:"]}),`
 `,e.jsxs(n.p,{children:[e.jsx(n.code,{children:"Individuelle Software"})," — maßgeschneiderte Anwendungen und Schnittstellen, exakt auf Ihre Prozesse abgestimmt"]}),`
@@ -53,4 +53,4 @@ import{b4 as s,j as e}from"./mdx-runtime-B_s9jK3V.js";function i(r){const n={a:"
 `,e.jsx(n.p,{children:"Nähere Informationen zu meiner Person finden Sie hier:"}),`
 `,e.jsxs(n.blockquote,{children:[`
 `,e.jsxs(n.p,{children:[e.jsx(n.a,{href:"/about",children:e.jsx(n.strong,{children:"Über mich"})})," - Werdegang und Philosophie"]}),`
-`]})]})}function h(r={}){const{wrapper:n}={...s(),...r.components};return n?e.jsx(n,{...r,children:e.jsx(i,{...r})}):i(r)}export{h as default};
+`]})]})}function l(r={}){const{wrapper:n}={...s(),...r.components};return n?e.jsx(n,{...r,children:e.jsx(i,{...r})}):i(r)}export{l as default};

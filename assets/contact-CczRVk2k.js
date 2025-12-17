@@ -1,4 +1,4 @@
-import{b4 as t,j as e,b5 as i,b6 as h,b7 as c,b8 as l}from"./mdx-runtime-B_s9jK3V.js";function r(s){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Kontakt"}),`
+import{j as e,af as i,ag as h,ah as c,ai as l}from"./loading-D6bB4KI5.js";import{a6 as t}from"./mdx-runtime-BcS6nZhi.js";function r(s){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Kontakt"}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Mehrere Wege, ein Ziel."})]}),`
 `,e.jsx(n.p,{children:"Für eine schnelle Bearbeitung empfehle ich eine kurze E-Mail oder WhatsApp-Nachricht. Für ausführliche Besprechungen nutzen Sie bitte mein Buchungstool. Ich freue mich auf Ihre Anfrage."}),`
 `,e.jsxs(n.ul,{children:[`
@@ -24,4 +24,4 @@ import{b4 as t,j as e,b5 as i,b6 as h,b7 as c,b8 as l}from"./mdx-runtime-B_s9jK3
 `]}),`
 `,e.jsxs(n.blockquote,{children:[`
 `,e.jsxs(n.p,{children:[e.jsx(l,{})," — ",e.jsx(n.a,{href:"https://github.com/jlesystems",children:e.jsx(n.strong,{children:"GitHub"})})]}),`
-`]})]})}function a(s={}){const{wrapper:n}={...t(),...s.components};return n?e.jsx(n,{...s,children:e.jsx(r,{...s})}):r(s)}export{a as default};
+`]})]})}function d(s={}){const{wrapper:n}={...t(),...s.components};return n?e.jsx(n,{...s,children:e.jsx(r,{...s})}):r(s)}export{d as default};

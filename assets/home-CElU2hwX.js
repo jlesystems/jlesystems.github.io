@@ -1,4 +1,4 @@
-import{b4 as t,j as n}from"./mdx-runtime-B_s9jK3V.js";function i(s){const e={a:"a",blockquote:"blockquote",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Designed like an engineer – Built like a developer"}),`
+import{j as n}from"./loading-D6bB4KI5.js";import{a6 as t}from"./mdx-runtime-BcS6nZhi.js";function i(s){const e={a:"a",blockquote:"blockquote",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Designed like an engineer – Built like a developer"}),`
 `,n.jsxs(e.p,{children:["[SUBTITLE] ",n.jsx(e.strong,{children:"JLE Systems"})," — Your partner for software development and system integration."]}),`
 `,n.jsxs(e.p,{children:["As a mechatronics engineer with several years of experience in industrial research and development, and as the technical director of a SaaS company, I have focused since 2020 on ",n.jsx(e.strong,{children:"software development"})," and ",n.jsx(e.strong,{children:"system integration"})," with high quality and functionality standards – from the initial concept to seamless integration into real-world processes. In summary, I offer:"]}),`
 `,n.jsxs(e.p,{children:[n.jsx(e.code,{children:"Custom software"})," — tailor-made applications and interfaces, precisely adapted to your processes"]}),`
@@ -53,4 +53,4 @@ import{b4 as t,j as n}from"./mdx-runtime-B_s9jK3V.js";function i(s){const e={a:"
 `,n.jsx(e.p,{children:"You can find more information about me here:"}),`
 `,n.jsxs(e.blockquote,{children:[`
 `,n.jsxs(e.p,{children:[n.jsx(e.a,{href:"/about",children:n.jsx(e.strong,{children:"About Me"})})," — Background and Philosophy"]}),`
-`]})]})}function r(s={}){const{wrapper:e}={...t(),...s.components};return e?n.jsx(e,{...s,children:n.jsx(i,{...s})}):i(s)}export{r as default};
+`]})]})}function l(s={}){const{wrapper:e}={...t(),...s.components};return e?n.jsx(e,{...s,children:n.jsx(i,{...s})}):i(s)}export{l as default};

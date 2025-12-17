@@ -1,4 +1,4 @@
-import{b4 as t,j as n}from"./mdx-runtime-B_s9jK3V.js";function i(s){const e={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Solutions"}),`
+import{j as n}from"./loading-D6bB4KI5.js";import{a6 as t}from"./mdx-runtime-BcS6nZhi.js";function i(s){const e={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Solutions"}),`
 `,n.jsxs(e.p,{children:["[SUBTITLE] ",n.jsx(e.strong,{children:"Precision meets Innovation."})]}),`
 `,n.jsxs(e.p,{children:["I do not offer off-the-shelf solutions, but customized systems that start exactly where standard software reaches its limits. My standard: ",n.jsx(e.strong,{children:"Designed like an engineer – Built like a developer"}),"."]}),`
 `,n.jsx(e.h2,{children:"[HASH:software] 1. Custom Software"}),`
@@ -61,4 +61,4 @@ import{b4 as t,j as n}from"./mdx-runtime-B_s9jK3V.js";function i(s){const e={a:"
 `,n.jsx(e.p,{children:"Do you prefer email or phone? Find all options here:"}),`
 `,n.jsxs(e.blockquote,{children:[`
 `,n.jsxs(e.p,{children:[n.jsx(e.a,{href:"/contact",children:n.jsx(e.strong,{children:"Contact"})})," — go to contact page"]}),`
-`]})]})}function r(s={}){const{wrapper:e}={...t(),...s.components};return e?n.jsx(e,{...s,children:n.jsx(i,{...s})}):i(s)}export{r as default};
+`]})]})}function l(s={}){const{wrapper:e}={...t(),...s.components};return e?n.jsx(e,{...s,children:n.jsx(i,{...s})}):i(s)}export{l as default};

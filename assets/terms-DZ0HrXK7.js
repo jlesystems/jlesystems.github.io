@@ -1,4 +1,4 @@
-import{b4 as r,j as e}from"./mdx-runtime-B_s9jK3V.js";function s(n){const t={a:"a",br:"br",em:"em",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...n.components};return e.jsxs(e.Fragment,{children:[e.jsx(t.h1,{children:"General Terms and Conditions"}),`
+import{j as e}from"./loading-D6bB4KI5.js";import{a6 as r}from"./mdx-runtime-BcS6nZhi.js";function s(n){const t={a:"a",br:"br",em:"em",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...n.components};return e.jsxs(e.Fragment,{children:[e.jsx(t.h1,{children:"General Terms and Conditions"}),`
 `,e.jsxs(t.p,{children:["[SUBTITLE] ",e.jsx(t.strong,{children:"Version:"})," December 15, 2025"]}),`
 `,e.jsx(t.p,{children:"General Terms and Conditions for Services in Information Technology and Software Development by Ing. Julian Lamplmair - JLE Systems."}),`
 `,e.jsx(t.h2,{children:"1. Scope and Definitions"}),`
@@ -79,4 +79,4 @@ import{b4 as r,j as e}from"./mdx-runtime-B_s9jK3V.js";function s(n){const t={a:"
 `]}),`
 `,e.jsxs(t.p,{children:[e.jsx(t.strong,{children:"12.3"})," Austrian law applies, excluding the UN Sales Convention."]}),`
 `,e.jsxs(t.p,{children:[e.jsx(t.strong,{children:"12.4"})," The version of these GTC valid at the time of the conclusion of the contract applies."]}),`
-`,e.jsxs(t.p,{children:[e.jsx(t.strong,{children:"12.5"})," Should a provision of these GTC be or become invalid in whole or in part, the validity of the remaining provisions shall remain unaffected."]})]})}function i(n={}){const{wrapper:t}={...r(),...n.components};return t?e.jsx(t,{...n,children:e.jsx(s,{...n})}):s(n)}function o(n){return e.jsx(i,{})}function l(n={}){const{wrapper:t}={...r(),...n.components};return t?e.jsx(t,{...n,children:e.jsx(o,{...n})}):o()}export{l as default};
+`,e.jsxs(t.p,{children:[e.jsx(t.strong,{children:"12.5"})," Should a provision of these GTC be or become invalid in whole or in part, the validity of the remaining provisions shall remain unaffected."]})]})}function i(n={}){const{wrapper:t}={...r(),...n.components};return t?e.jsx(t,{...n,children:e.jsx(s,{...n})}):s(n)}function o(n){return e.jsx(i,{})}function c(n={}){const{wrapper:t}={...r(),...n.components};return t?e.jsx(t,{...n,children:e.jsx(o,{...n})}):o()}export{c as default};

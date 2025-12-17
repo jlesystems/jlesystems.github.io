@@ -1,4 +1,4 @@
-import{b4 as r,j as n}from"./mdx-runtime-B_s9jK3V.js";function i(s){const e={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Legal Notice"}),`
+import{j as n}from"./loading-D6bB4KI5.js";import{a6 as r}from"./mdx-runtime-BcS6nZhi.js";function i(s){const e={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Legal Notice"}),`
 `,n.jsxs(e.p,{children:["[SUBTITLE] ",n.jsx(e.strong,{children:"Version:"})," December 2, 2025"]}),`
 `,n.jsx(e.p,{children:"Legal information pursuant to § 5 of the Austrian E-Commerce Act (ECG), § 63 of the Austrian Trade Regulation Act (GewO) and disclosure obligations pursuant to § 25 of the Austrian Media Act (MedienG) for the business operated under the name “JLE Systems”."}),`
 `,n.jsx(e.h2,{children:"JLE Systems"}),`
@@ -48,4 +48,4 @@ import{b4 as r,j as n}from"./mdx-runtime-B_s9jK3V.js";function i(s){const e={a:"
 `]}),`
 `,n.jsx(e.hr,{}),`
 `,n.jsx(e.h3,{children:"Basic Direction:"}),`
-`,n.jsx(e.p,{children:"Information about the products and services of the company as well as promotion of the same."})]})}function o(s={}){const{wrapper:e}={...r(),...s.components};return e?n.jsx(e,{...s,children:n.jsx(i,{...s})}):i(s)}function t(s){return n.jsx(o,{})}function c(s={}){const{wrapper:e}={...r(),...s.components};return e?n.jsx(e,{...s,children:n.jsx(t,{...s})}):t()}export{c as default};
+`,n.jsx(e.p,{children:"Information about the products and services of the company as well as promotion of the same."})]})}function o(s={}){const{wrapper:e}={...r(),...s.components};return e?n.jsx(e,{...s,children:n.jsx(i,{...s})}):i(s)}function t(s){return n.jsx(o,{})}function a(s={}){const{wrapper:e}={...r(),...s.components};return e?n.jsx(e,{...s,children:n.jsx(t,{...s})}):t()}export{a as default};
