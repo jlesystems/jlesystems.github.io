@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jle.systems/en/home</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/home" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/home" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/home" />
+    <loc>https://jle.systems/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en" />
   </url>
   <url>
-    <loc>https://jle.systems/de/home</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/home" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/home" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/home" />
+    <loc>https://jle.systems/de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en" />
   </url>
   <url>
     <loc>https://jle.systems/en/solutions</loc>
