@@ -1,4 +1,4 @@
-import{j as n}from"./index-DIi8WtS9.js";import{u as r}from"./index-2S7wz3VH.js";import"./preload-DIyyT1pB.js";function i(o){const e={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...o.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Information"}),`
+import{j as n}from"./index-QUIBNdhf.js";import{u as r}from"./index-DpgN8E9Q.js";import"./preload-B4Zq_aYf.js";function i(o){const e={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...o.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Information"}),`
 `,n.jsxs(e.p,{children:["[SUBTITLE] ",n.jsx(e.strong,{children:"Everything you need to know."})]}),`
 `,n.jsx(e.p,{children:"A good overview is always important. You can find the key information about my company here."}),`
 `,n.jsx(e.h2,{children:"Profile"}),`
@@ -25,11 +25,11 @@ import{j as n}from"./index-DIi8WtS9.js";import{u as r}from"./index-2S7wz3VH.js";
 `,n.jsx(e.h2,{children:"Legal"}),`
 `,n.jsx(e.p,{children:"I deliberately do not use analytics or marketing cookies on my website. Transparency and data minimization are part of my philosophy. Therefore, there is no option to accept or decline them – I protect your privacy by default."}),`
 `,n.jsxs(e.blockquote,{children:[`
-`,n.jsx(e.p,{children:n.jsx(e.a,{href:"/terms",children:n.jsx(e.strong,{children:"Terms and Conditions"})})}),`
+`,n.jsx(e.p,{children:n.jsx(e.a,{href:"/legal-notice",children:n.jsx(e.strong,{children:"Legal Notice"})})}),`
 `]}),`
 `,n.jsxs(e.blockquote,{children:[`
 `,n.jsx(e.p,{children:n.jsx(e.a,{href:"/privacy-policy",children:n.jsx(e.strong,{children:"Privacy Policy"})})}),`
 `]}),`
 `,n.jsxs(e.blockquote,{children:[`
-`,n.jsx(e.p,{children:n.jsx(e.a,{href:"/legal-notice",children:n.jsx(e.strong,{children:"Legal Notice"})})}),`
+`,n.jsx(e.p,{children:n.jsx(e.a,{href:"/terms",children:n.jsx(e.strong,{children:"Terms and Conditions"})})}),`
 `]})]})}function l(o={}){const{wrapper:e}={...r(),...o.components};return e?n.jsx(e,{...o,children:n.jsx(i,{...o})}):i(o)}export{l as default};

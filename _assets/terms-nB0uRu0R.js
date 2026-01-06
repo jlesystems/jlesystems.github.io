@@ -1,4 +1,4 @@
-import{j as e}from"./index-DIi8WtS9.js";import{u as s}from"./index-2S7wz3VH.js";import"./preload-DIyyT1pB.js";function i(r){const n={a:"a",br:"br",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Allgemeine Geschäfts­bedin­gun­gen"}),`
+import{j as e}from"./index-QUIBNdhf.js";import{u as s}from"./index-DpgN8E9Q.js";import"./preload-B4Zq_aYf.js";function i(r){const n={a:"a",br:"br",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Allgemeine Geschäfts­bedin­gun­gen"}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Version:"})," 23. Dezember 2025"]}),`
 `,e.jsx(n.p,{children:"Allgemeine Geschäftsbedingungen für Dienstleistungen in der Informationstechnologie und Softwareentwicklung von Ing. Julian Lamplmair - JLE Systems."}),`
 `,e.jsx(n.h2,{children:"1. Geltungsbereich und Definitionen"}),`

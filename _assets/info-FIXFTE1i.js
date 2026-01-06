@@ -1,4 +1,4 @@
-import{j as e}from"./index-DIi8WtS9.js";import{u as s}from"./index-2S7wz3VH.js";import"./preload-DIyyT1pB.js";function r(i){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...i.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Informationen"}),`
+import{j as e}from"./index-QUIBNdhf.js";import{u as s}from"./index-DpgN8E9Q.js";import"./preload-B4Zq_aYf.js";function r(i){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...i.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Informationen"}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Alles im Blick."})]}),`
 `,e.jsx(n.p,{children:"Ein guter Überblick ist immer wichtig. Die wichtigsten Informationen zu meinem Unternehmen finden Sie hier."}),`
 `,e.jsx(n.h2,{children:"Steckbrief"}),`
@@ -25,11 +25,11 @@ import{j as e}from"./index-DIi8WtS9.js";import{u as s}from"./index-2S7wz3VH.js";
 `,e.jsx(n.h2,{children:"Rechtliches"}),`
 `,e.jsx(n.p,{children:"Auf meiner Website verzichte ich bewusst auf Analyse- oder Marketing-Cookies. Transparenz und Datensparsamkeit sind Teil meiner Philosophie. Daher gibt es auch keine Option, diese abzulehnen oder zuzustimmen – ich schütze Ihre Privatsphäre standardmäßig."}),`
 `,e.jsxs(n.blockquote,{children:[`
-`,e.jsx(n.p,{children:e.jsx(n.a,{href:"/terms",children:e.jsx(n.strong,{children:"Allgemeine Geschäftsbedingungen"})})}),`
+`,e.jsx(n.p,{children:e.jsx(n.a,{href:"/legal-notice",children:e.jsx(n.strong,{children:"Impressum"})})}),`
 `]}),`
 `,e.jsxs(n.blockquote,{children:[`
 `,e.jsx(n.p,{children:e.jsx(n.a,{href:"/privacy-policy",children:e.jsx(n.strong,{children:"Datenschutzerklärung"})})}),`
 `]}),`
 `,e.jsxs(n.blockquote,{children:[`
-`,e.jsx(n.p,{children:e.jsx(n.a,{href:"/legal-notice",children:e.jsx(n.strong,{children:"Impressum"})})}),`
+`,e.jsx(n.p,{children:e.jsx(n.a,{href:"/terms",children:e.jsx(n.strong,{children:"Allgemeine Geschäftsbedingungen"})})}),`
 `]})]})}function c(i={}){const{wrapper:n}={...s(),...i.components};return n?e.jsx(n,{...i,children:e.jsx(r,{...i})}):r(i)}export{c as default};
