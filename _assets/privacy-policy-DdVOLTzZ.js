@@ -1,4 +1,4 @@
-import{j as e}from"./index-zp6TRKUz.js";import{u as r}from"./index-DHMjqeA0.js";import"./preload-CPHnECUq.js";function t(s){const n={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Privacy Policy"}),`
+import{j as e}from"./index-7Pd8L-8C.js";import{u as r}from"./index-NrZlnODl.js";import"./preload-CX4uJaE8.js";function t(s){const n={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Privacy Policy"}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Version:"})," January 5, 2026"]}),`
 `,e.jsx(n.p,{children:"Protecting your personal data is very important to me. I process your data exclusively on the basis of the applicable legal provisions (GDPR, TKG 2021). In this privacy policy, I inform you about the most important aspects of data processing in connection with my website as well as my business activities (client projects)."}),`
 `,e.jsx(n.h2,{children:"1. Controller"}),`

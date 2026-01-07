@@ -1,4 +1,4 @@
-import{j as e}from"./index-zp6TRKUz.js";import{u as r}from"./index-DHMjqeA0.js";import"./preload-CPHnECUq.js";function s(n){const t={a:"a",br:"br",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...n.components};return e.jsxs(e.Fragment,{children:[e.jsx(t.h1,{children:"General Terms and Conditions"}),`
+import{j as e}from"./index-7Pd8L-8C.js";import{u as r}from"./index-NrZlnODl.js";import"./preload-CX4uJaE8.js";function s(n){const t={a:"a",br:"br",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...n.components};return e.jsxs(e.Fragment,{children:[e.jsx(t.h1,{children:"General Terms and Conditions"}),`
 `,e.jsxs(t.p,{children:["[SUBTITLE] ",e.jsx(t.strong,{children:"Version:"})," December 23, 2025"]}),`
 `,e.jsx(t.p,{children:"General Terms and Conditions for Services in Information Technology and Software Development by Ing. Julian Lamplmair - JLE Systems."}),`
 `,e.jsx(t.h2,{children:"1. Scope and Definitions"}),`

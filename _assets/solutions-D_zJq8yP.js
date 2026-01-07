@@ -1,4 +1,4 @@
-import{j as n}from"./index-zp6TRKUz.js";import{u as t}from"./index-DHMjqeA0.js";import"./preload-CPHnECUq.js";function i(s){const e={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Solutions"}),`
+import{j as n}from"./index-7Pd8L-8C.js";import{u as t}from"./index-NrZlnODl.js";import"./preload-CX4uJaE8.js";function i(s){const e={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Solutions"}),`
 `,n.jsxs(e.p,{children:["[SUBTITLE] ",n.jsx(e.strong,{children:"Precision meets Innovation."})]}),`
 `,n.jsxs(e.p,{children:["I do not offer off-the-shelf solutions, but customized systems that start exactly where standard software reaches its limits. My standard: ",n.jsx(e.strong,{children:"Designed like an engineer – Built like a developer"}),"."]}),`
 `,n.jsx(e.h2,{children:"[HASH:software] 1. Custom Software"}),`
