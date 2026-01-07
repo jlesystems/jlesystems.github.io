@@ -1,4 +1,4 @@
-import{j as e}from"./index-QUIBNdhf.js";import{u as s}from"./index-DpgN8E9Q.js";import"./preload-B4Zq_aYf.js";function i(r){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Lösungen"}),`
+import{j as e}from"./index-zp6TRKUz.js";import{u as s}from"./index-DHMjqeA0.js";import"./preload-CPHnECUq.js";function i(r){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Lösungen"}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Präzision trifft Innovation."})]}),`
 `,e.jsxs(n.p,{children:["Ich biete keine Standardlösungen von der Stange, sondern maßgeschneiderte Systeme, die genau dort ansetzen, wo Standardsoftware an ihre Grenzen stößt. Mein Anspruch: ",e.jsx(n.strong,{children:"Geplant wie ein Ingenieur – Gebaut wie ein Entwickler"}),"."]}),`
 `,e.jsx(n.h2,{children:"[HASH:software] 1. Individuelle Software"}),`

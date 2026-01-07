@@ -1,4 +1,4 @@
-import{j as e}from"./index-QUIBNdhf.js";import{u as s}from"./index-DpgN8E9Q.js";import"./preload-B4Zq_aYf.js";function r(i){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...i.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Informationen"}),`
+import{j as e}from"./index-zp6TRKUz.js";import{u as s}from"./index-DHMjqeA0.js";import"./preload-CPHnECUq.js";function r(i){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...i.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Informationen"}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Alles im Blick."})]}),`
 `,e.jsx(n.p,{children:"Ein guter Überblick ist immer wichtig. Die wichtigsten Informationen zu meinem Unternehmen finden Sie hier."}),`
 `,e.jsx(n.h2,{children:"Steckbrief"}),`
