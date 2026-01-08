@@ -1,4 +1,4 @@
-import{j as n}from"./index-7Pd8L-8C.js";import{u as o}from"./index-NrZlnODl.js";import{a5 as i,a6 as r,a7 as l,a8 as c}from"./preload-CX4uJaE8.js";function t(e){const s={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...o(),...e.components};return n.jsxs(n.Fragment,{children:[n.jsx(s.h1,{children:"Contact"}),`
+import{j as n}from"./index-ZKmomCsH.js";import{u as o}from"./index-BxfvGosM.js";import{a5 as i,a6 as r,a7 as l,a8 as c}from"./preload-Bhv7Jght.js";function t(e){const s={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...o(),...e.components};return n.jsxs(n.Fragment,{children:[n.jsx(s.h1,{children:"Contact"}),`
 `,n.jsxs(s.p,{children:["[SUBTITLE] ",n.jsx(s.strong,{children:"Multiple options, one destination."})]}),`
 `,n.jsx(s.p,{children:"For a quick response, I recommend a short email or WhatsApp message. For detailed discussions, please use my booking tool. I look forward to your inquiry."}),`
 `,n.jsxs(s.ul,{children:[`

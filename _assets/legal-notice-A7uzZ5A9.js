@@ -1,4 +1,4 @@
-import{j as e}from"./index-7Pd8L-8C.js";import{u as s}from"./index-NrZlnODl.js";import"./preload-CX4uJaE8.js";function i(r){const n={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Impressum"}),`
+import{j as e}from"./index-ZKmomCsH.js";import{u as s}from"./index-BxfvGosM.js";import"./preload-Bhv7Jght.js";function i(r){const n={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Impressum"}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Version:"})," 20. Dezember 2025"]}),`
 `,e.jsx(n.p,{children:"Rechtliche Informationen laut § 5 E-Commerce Gesetz, § 63 Gewerbeordnung und Offenlegungspflicht laut § 25 Mediengesetz zum Geschäftsbetrieb unter der Bezeichnung „JLE Systems“."}),`
 `,e.jsx(n.h2,{children:"JLE Systems"}),`

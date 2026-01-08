@@ -1,4 +1,4 @@
-import{j as n}from"./index-7Pd8L-8C.js";import{u as r}from"./index-NrZlnODl.js";import"./preload-CX4uJaE8.js";function i(o){const e={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...o.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Information"}),`
+import{j as n}from"./index-ZKmomCsH.js";import{u as r}from"./index-BxfvGosM.js";import"./preload-Bhv7Jght.js";function i(o){const e={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...o.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Information"}),`
 `,n.jsxs(e.p,{children:["[SUBTITLE] ",n.jsx(e.strong,{children:"Everything you need to know."})]}),`
 `,n.jsx(e.p,{children:"A good overview is always important. You can find the key information about my company here."}),`
 `,n.jsx(e.h2,{children:"Profile"}),`

@@ -1,4 +1,4 @@
-import{j as n}from"./index-7Pd8L-8C.js";import{u as r}from"./index-NrZlnODl.js";import"./preload-CX4uJaE8.js";function i(s){const e={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Legal Notice"}),`
+import{j as n}from"./index-ZKmomCsH.js";import{u as r}from"./index-BxfvGosM.js";import"./preload-Bhv7Jght.js";function i(s){const e={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",strong:"strong",ul:"ul",...r(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{children:"Legal Notice"}),`
 `,n.jsxs(e.p,{children:["[SUBTITLE] ",n.jsx(e.strong,{children:"Version:"})," December 20, 2025"]}),`
 `,n.jsx(e.p,{children:"Legal information pursuant to § 5 of the Austrian E-Commerce Act (ECG), § 63 of the Austrian Trade Regulation Act (GewO) and disclosure obligations pursuant to § 25 of the Austrian Media Act (MedienG) for the business operated under the name “JLE Systems”."}),`
 `,n.jsx(e.h2,{children:"JLE Systems"}),`

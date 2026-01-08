@@ -1,4 +1,4 @@
-import{j as e}from"./index-7Pd8L-8C.js";import{u as t}from"./index-NrZlnODl.js";import{a5 as i,a6 as h,a7 as c,a8 as l}from"./preload-CX4uJaE8.js";function r(s){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Kontakt"}),`
+import{j as e}from"./index-ZKmomCsH.js";import{u as t}from"./index-BxfvGosM.js";import{a5 as i,a6 as h,a7 as c,a8 as l}from"./preload-Bhv7Jght.js";function r(s){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...t(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Kontakt"}),`
 `,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Mehrere Wege, ein Ziel."})]}),`
 `,e.jsx(n.p,{children:"Für eine schnelle Bearbeitung empfehle ich eine kurze E-Mail oder WhatsApp-Nachricht. Für ausführliche Besprechungen nutzen Sie bitte mein Buchungstool. Ich freue mich auf Ihre Anfrage."}),`
 `,e.jsxs(n.ul,{children:[`
