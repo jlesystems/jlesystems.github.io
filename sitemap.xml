@@ -96,4 +96,28 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/info" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/info" />
   </url>
+  <url>
+    <loc>https://jle.systems/en/articles</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/articles" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/articles" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/articles" />
+  </url>
+  <url>
+    <loc>https://jle.systems/de/articles</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/articles" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/articles" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/articles" />
+  </url>
+  <url>
+    <loc>https://jle.systems/en/articles/smart-home</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/articles/smart-home" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/articles/smart-home" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/articles/smart-home" />
+  </url>
+  <url>
+    <loc>https://jle.systems/de/articles/smart-home</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/articles/smart-home" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/articles/smart-home" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/en/articles/smart-home" />
+  </url>
 </urlset>
