@@ -30,7 +30,12 @@
             "@id": "https://jle.systems#organization",
             "name": "JLE Systems - Ing. Julian Lamplmair",
             "alternateName": "JLE Systems",
-            "image": "https://jle.systemsschema-logo-512x512.png",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://jle.systems/schema-logo-512x512.png",
+              "width": 512,
+              "height": 512
+            },
             "url": "https://jle.systems",
             "description": "JLE Systems – Your partner for software development (worldwide) and system integration.",
             "address": {
@@ -44,31 +49,65 @@
             "contactPoint": {
               "@type": "ContactPoint",
               "contactType": "customer service",
-              "areaServed": "Worldwide",
               "availableLanguage": [
                 "de",
                 "en"
               ],
               "email": "office@jle.systems",
-              "telephone": "+43-670-1989499"
+              "telephone": "+436701989499"
+            },
+            "founder": {
+              "@id": "https://jle.systems#person"
             },
             "sameAs": [
               "https://www.linkedin.com/company/jlesystems",
-              "https://www.linkedin.com/in/julian-lamplmair",
               "https://www.instagram.com/jle.systems",
               "https://www.threads.com/@jle.systems",
-              "https://github.com/jlesystems",
-              "https://github.com/julian-lamplmair-jlesystems"
+              "https://github.com/jlesystems"
             ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://jle.systems#service-software-development",
+            "name": "Software Development",
+            "provider": {
+              "@id": "https://jle.systems#organization"
+            },
+            "areaServed": "Worldwide"
+          },
+          {
+            "@type": "Service",
+            "@id": "https://jle.systems#service-system-integration",
+            "name": "System Integration",
+            "provider": {
+              "@id": "https://jle.systems#organization"
+            },
+            "areaServed": {
+              "@type": "Country",
+              "name": "Austria"
+            }
           },
           {
             "@type": "WebSite",
             "@id": "https://jle.systems#website",
+            "url": "https://jle.systems",
             "name": "JLE Systems - Software & Integration",
-            "alternateName": "JLE Systems",
-            "url": "https://jle.systems/en",
-            "inLanguage": "en",
+            "description": "JLE Systems – Your partner for software development (worldwide) and system integration.",
             "publisher": {
+              "@id": "https://jle.systems#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://jle.systems/en/solutions#webpage",
+            "url": "https://jle.systems/en/solutions",
+            "inLanguage": "en",
+            "name": "Solutions | JLE Systems - Software & Integration",
+            "description": "Software, IT/OT connectivity & smart home. Tailor-made instead of off-the-shelf. My approach: designed like an engineer, built like a developer.",
+            "isPartOf": {
+              "@id": "https://jle.systems#website"
+            },
+            "about": {
               "@id": "https://jle.systems#organization"
             }
           },
@@ -77,6 +116,11 @@
             "@id": "https://jle.systems#person",
             "name": "Ing. Julian Lamplmair",
             "jobTitle": "Software Engineer & Systems Integrator",
+            "url": "https://jle.systems/en/about",
+            "sameAs": [
+              "https://www.linkedin.com/in/julian-lamplmair",
+              "https://github.com/julian-lamplmair-jlesystems"
+            ],
             "worksFor": {
               "@id": "https://jle.systems#organization"
             }
@@ -84,8 +128,8 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="/_assets/index-BH91N29G.js"></script>
-    <link rel="modulepreload" crossorigin href="/_assets/preload-DFigx9sP.js">
+    <script type="module" crossorigin src="/_assets/index-CaDsr0a3.js"></script>
+    <link rel="modulepreload" crossorigin href="/_assets/preload-BqGXbhZb.js">
     <link rel="stylesheet" crossorigin href="/_assets/style-nNF32GX7.css">
   </head>
   <body style="background-color: #0a0d18;">
