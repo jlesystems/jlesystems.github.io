@@ -56,6 +56,7 @@
     />
     <title data-origin="html-placeholders">Impressum | JLE Systems - Software &amp; Integration</title>
     <meta name="theme-color" data-origin="html-placeholders" content="#0a0d18" />
+    <meta name="color-scheme" data-origin="html-placeholders" content="light dark" />
     <meta name="og:title" data-origin="html-placeholders" content="Impressum | JLE Systems - Software &amp; Integration" />
     <meta name="description" data-origin="html-placeholders" content="Rechtliche Informationen nach ECG, GewO und Mediengesetz. Inhaber: Ing. Julian Lamplmair; Geschäftsbezeichnung: JLE Systems; Bezirk: Freistadt." />
     <meta name="og:description" data-origin="html-placeholders" content="Rechtliche Informationen nach ECG, GewO und Mediengesetz. Inhaber: Ing. Julian Lamplmair; Geschäftsbezeichnung: JLE Systems; Bezirk: Freistadt." />
@@ -172,10 +173,85 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="/_assets/index-CyOUYLAt.js"></script>
-    <link rel="stylesheet" crossorigin href="/_assets/style-DymN0DBn.css">
+    <style>
+      :root {
+        color-scheme: light dark;
+        --primary: rgba(10, 13, 24, 1);
+        --secondary: rgba(252, 253, 255, 1);
+        --text-primary: rgba(238, 238, 238, 1);
+        --text-secondary: rgba(15, 15, 15, 1);
+        --primary-a: rgba(19, 25, 46, 1);
+        --primary-b: rgba(25, 33, 60, 1);
+        --primary-c: rgba(31, 40, 74, 1);
+        --text-primary-a: rgba(187, 187, 187, 1);
+        --text-primary-b: rgba(162, 162, 162, 1);
+        --text-primary-c: rgba(136, 136, 136, 1);
+        --secondary-a: rgba(242, 246, 255, 1);
+        --secondary-b: rgba(232, 239, 255, 1);
+        --secondary-c: rgba(221, 233, 255, 1);
+        --text-secondary-a: rgba(66, 66, 66, 1);
+        --text-secondary-b: rgba(92, 92, 92, 1);
+        --text-secondary-c: rgba(117, 117, 117, 1);
+        --shadow-color: rgba(10, 13, 24, 0.5);
+        --backdrop-color: rgba(10, 13, 24, 0.4);
+        --scrollbar-color: var(--text-secondary);
+      }
+
+      :root[data-theme='dark'] {
+        --primary: rgba(10, 13, 24, 1);
+        --secondary: rgba(28, 33, 44, 1);
+        --text-primary: rgba(238, 238, 238, 1);
+        --text-secondary: rgba(207, 207, 207, 1);
+        --primary-a: rgba(19, 25, 46, 1);
+        --primary-b: rgba(25, 33, 60, 1);
+        --primary-c: rgba(31, 40, 74, 1);
+        --text-primary-a: rgba(187, 187, 187, 1);
+        --text-primary-b: rgba(162, 162, 162, 1);
+        --text-primary-c: rgba(136, 136, 136, 1);
+        --secondary-a: rgba(40, 47, 63, 1);
+        --secondary-b: rgba(48, 56, 75, 1);
+        --secondary-c: rgba(56, 66, 88, 1);
+        --text-secondary-a: rgba(156, 156, 156, 1);
+        --text-secondary-b: rgba(131, 131, 131, 1);
+        --text-secondary-c: rgba(105, 105, 105, 1);
+        --shadow-color: rgba(10, 13, 24, 0.5);
+        --backdrop-color: rgba(10, 13, 24, 0.4);
+        --scrollbar-color: var(--text-secondary);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme]) {
+          --primary: rgba(10, 13, 24, 1);
+          --secondary: rgba(28, 33, 44, 1);
+          --text-primary: rgba(238, 238, 238, 1);
+          --text-secondary: rgba(207, 207, 207, 1);
+          --primary-a: rgba(19, 25, 46, 1);
+          --primary-b: rgba(25, 33, 60, 1);
+          --primary-c: rgba(31, 40, 74, 1);
+          --text-primary-a: rgba(187, 187, 187, 1);
+          --text-primary-b: rgba(162, 162, 162, 1);
+          --text-primary-c: rgba(136, 136, 136, 1);
+          --secondary-a: rgba(40, 47, 63, 1);
+          --secondary-b: rgba(48, 56, 75, 1);
+          --secondary-c: rgba(56, 66, 88, 1);
+          --text-secondary-a: rgba(156, 156, 156, 1);
+          --text-secondary-b: rgba(131, 131, 131, 1);
+          --text-secondary-c: rgba(105, 105, 105, 1);
+          --shadow-color: rgba(10, 13, 24, 0.5);
+          --backdrop-color: rgba(10, 13, 24, 0.4);
+          --scrollbar-color: var(--text-secondary);
+        }
+      }
+
+      html,
+      body {
+        background-color: var(--primary);
+      }
+    </style>
+    <script type="module" crossorigin src="/_assets/index-CnILJEpx.js"></script>
+    <link rel="stylesheet" crossorigin href="/_assets/style-D_H_taVz.css">
   </head>
-  <body style="background-color: #0a0d18">
+  <body>
     <div id="root"></div>
   </body>
 </html>
