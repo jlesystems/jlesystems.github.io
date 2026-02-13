@@ -1,0 +1,5 @@
+import{j as e}from"./index-CNvAS37i.js";import{A as s}from"./article-list-OT0_pb7g.js";import{u as i}from"./index-Cpk_jL6l.js";import"./mdx-5NuhHWZf.js";import"./markdown-renderer.lazy-C3RBZJYh.js";import"./smart-link-0KSBb-eW.js";import"./button-Bce9cW8Y.js";import"./CloseOutlined-DT4TLPcV.js";function r(t){const n={h1:"h1",hr:"hr",p:"p",strong:"strong",...i(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Artikel"}),`
+`,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Leitfäden, Architekturen und Tipps"})]}),`
+`,e.jsx(n.p,{children:"Hier finden Sie Deep-Dives und Praxisbeispiele meiner Arbeit bei JLE Systems. Ob Smart Home-Steuerung, Software-Architektur oder IoT-Lösungen: Ich dokumentiere, was technisch machbar ist, wenn man wie ein Ingenieur denkt und wie ein Entwickler baut."}),`
+`,e.jsx(n.hr,{}),`
+`,e.jsx(s,{})]})}function x(t={}){const{wrapper:n}={...i(),...t.components};return n?e.jsx(n,{...t,children:e.jsx(r,{...t})}):r(t)}export{x as default};
