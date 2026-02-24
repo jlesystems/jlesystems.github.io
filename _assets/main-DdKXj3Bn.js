@@ -1,5 +1,0 @@
-import{j as t}from"./index-DzHO8a7t.js";import{A as s}from"./article-list-BpoBdF8A.js";import{u as o}from"./index-CPuqIoqg.js";import"./mdx-q15rnVFm.js";import"./markdown-renderer.lazy-D33xMBgt.js";import"./smart-link-B673iVPp.js";import"./button-BvVpxZS1.js";import"./CloseOutlined-B2k6hnHL.js";function r(n){const e={h1:"h1",hr:"hr",p:"p",strong:"strong",...o(),...n.components};return t.jsxs(t.Fragment,{children:[t.jsx(e.h1,{children:"Articles"}),`
-`,t.jsxs(e.p,{children:["[SUBTITLE] ",t.jsx(e.strong,{children:"Guides, architectures and tips"})]}),`
-`,t.jsx(e.p,{children:"Here you'll find in-depth analyses and practical examples of my work at JLE Systems. Whether it's smart home control, software architecture, or IoT solutions: I document what's technically feasible when you think like an engineer and build like a developer."}),`
-`,t.jsx(e.hr,{}),`
-`,t.jsx(s,{})]})}function u(n={}){const{wrapper:e}={...o(),...n.components};return e?t.jsx(e,{...n,children:t.jsx(r,{...n})}):r(n)}export{u as default};
