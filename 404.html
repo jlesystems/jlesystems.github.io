@@ -60,7 +60,7 @@
     <meta name="theme-color" data-origin="html-placeholders" content="#0a0d18" />
     <meta name="color-scheme" data-origin="html-placeholders" content="light dark" />
     <meta property="og:site_name" data-origin="html-placeholders" content="JLE Systems" />
-    <meta property="og:title" data-origin="html-placeholders" content="404 | JLE Systems - Software &amp; Integration" />
+    <meta property="og:title" data-origin="html-placeholders" content="404" />
     <meta property="og:description" data-origin="html-placeholders" content="JLE Systems – Ihr Partner für Softwareentwicklung (weltweit) und Systemintegration." />
     <meta property="og:locale" data-origin="html-placeholders" content="de_AT" />
     <meta property="og:locale:alternate" data-origin="html-placeholders" content="en_US" />
@@ -68,7 +68,7 @@
     <meta property="og:image:alt" data-origin="html-placeholders" content="Logo" />
     <meta property="og:type" data-origin="html-placeholders" content="website" />
     <meta name="twitter:card" data-origin="html-placeholders" content="summary_large_image" />
-    <meta name="twitter:title" data-origin="html-placeholders" content="404 | JLE Systems - Software &amp; Integration" />
+    <meta name="twitter:title" data-origin="html-placeholders" content="404" />
     <meta name="twitter:description" data-origin="html-placeholders" content="JLE Systems – Ihr Partner für Softwareentwicklung (weltweit) und Systemintegration." />
     <meta name="twitter:image" data-origin="html-placeholders" content="https://jle.systems/_assets/logo-512x512-R7jYf5fc.png" />
     <meta name="twitter:image:alt" data-origin="html-placeholders" content="Logo" />
@@ -147,10 +147,32 @@
         background-color: var(--primary);
       }
     </style>
-    <script type="module" crossorigin src="/_assets/index-B156U3F0.js"></script>
-    <link rel="stylesheet" crossorigin href="/_assets/style-BkHYVpHK.css">
+    <style>
+      html:has(#ssr-curtain),
+      html:has(#ssr-curtain) body {
+        overflow: hidden;
+      }
+
+      #ssr-curtain {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--primary);
+        z-index: 999999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+    <script type="module" crossorigin src="/_assets/index-CK6e4Hkc.js"></script>
+    <link rel="stylesheet" crossorigin href="/_assets/style-C8tMhH2a.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="ssr-curtain"></div>
+    <div id="root">
+<div class="app"><div class="app__loading-wrapper"><div class="loading-component loading-component__primary" aria-busy="true"></div></div><div class="app__error-wrapper"><div class="size-error-component"><span role="img" aria-label="zoom-out" class="anticon anticon-zoom-out"><svg viewBox="64 64 896 896" focusable="false" data-icon="zoom-out" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M637 443H325c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h312c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8zm284 424L775 721c122.1-148.9 113.6-369.5-26-509-148-148.1-388.4-148.1-537 0-148.1 148.6-148.1 389 0 537 139.5 139.6 360.1 148.1 509 26l146 146c3.2 2.8 8.3 2.8 11 0l43-43c2.8-2.7 2.8-7.8 0-11zM696 696c-118.8 118.7-311.2 118.7-430 0-118.7-118.8-118.7-311.2 0-430 118.8-118.7 311.2-118.7 430 0 118.7 118.8 118.7 311.2 0 430z"></path></svg></span></div></div><div class="app__content-wrapper"><!--$--><!--/$--></div></div>
+    </div>
   </body>
 </html>
