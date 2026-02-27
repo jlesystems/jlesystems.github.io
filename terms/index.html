@@ -56,7 +56,8 @@
     />
     <title data-origin="html-placeholders">AGB | JLE Systems - Software &amp; Integration</title>
     <meta name="description" data-origin="html-placeholders" content="Allgemeine Geschäftsbedingungen für IT-Dienstleistungen und Softwareentwicklung – Leistungen, Preise, Zahlungsbedingungen, Nutzungsrechte, Haftung, Gewährleistung sowie Kündigung und Datenschutz." />
-    <meta name="theme-color" data-origin="html-placeholders" content="#0a0d18" />
+    <meta name="theme-color" data-origin="html-placeholders" media="(prefers-color-scheme: light)" content="#0a0d18" />
+    <meta name="theme-color" data-origin="html-placeholders" media="(prefers-color-scheme: dark)" content="#020305" />
     <meta name="color-scheme" data-origin="html-placeholders" content="light dark" />
     <link rel="canonical" data-origin="html-placeholders" href="https://jle.systems/de/terms" />
     <meta property="og:site_name" data-origin="html-placeholders" content="JLE Systems" />
@@ -185,82 +186,93 @@
         ]
       }
     </script>
+    <script>
+      (function () {
+        try {
+          var mode = localStorage.getItem('theme-mode');
+          if (mode === 'light' || mode === 'dark') {
+            document.documentElement.setAttribute('data-theme', mode);
+          } else {
+            document.documentElement.removeAttribute('data-theme');
+          }
+        } catch {
+          document.documentElement.removeAttribute('data-theme');
+        }
+      })();
+    </script>
     <style>
       :root {
         color-scheme: light dark;
         --primary: rgba(10, 13, 24, 1);
-        --secondary: rgba(252, 253, 255, 1);
+        --secondary: rgba(238, 238, 238, 1);
         --text-primary: rgba(238, 238, 238, 1);
-        --text-secondary: rgba(15, 15, 15, 1);
+        --text-secondary: rgba(0, 0, 0, 1);
         --primary-a: rgba(19, 25, 46, 1);
         --primary-b: rgba(25, 33, 60, 1);
         --primary-c: rgba(31, 40, 74, 1);
-        --text-primary-a: rgba(187, 187, 187, 1);
-        --text-primary-b: rgba(162, 162, 162, 1);
-        --text-primary-c: rgba(136, 136, 136, 1);
-        --secondary-a: rgba(242, 246, 255, 1);
-        --secondary-b: rgba(232, 239, 255, 1);
-        --secondary-c: rgba(221, 233, 255, 1);
-        --text-secondary-a: rgba(66, 66, 66, 1);
-        --text-secondary-b: rgba(92, 92, 92, 1);
-        --text-secondary-c: rgba(117, 117, 117, 1);
-        --shadow-color: rgba(10, 13, 24, 0.5);
-        --backdrop-color: rgba(10, 13, 24, 0.4);
-        --scrollbar-color: var(--text-secondary);
+        --text-primary-a: rgba(223, 223, 223, 1);
+        --text-primary-b: rgba(213, 213, 213, 1);
+        --text-primary-c: rgba(202, 202, 202, 1);
+        --secondary-a: rgba(203, 207, 218, 1);
+        --secondary-b: rgba(191, 195, 210, 1);
+        --secondary-c: rgba(179, 184, 201, 1);
+        --text-secondary-a: rgba(15, 15, 15, 1);
+        --text-secondary-b: rgba(26, 26, 26, 1);
+        --text-secondary-c: rgba(36, 36, 36, 1);
+        --shadow-color: rgba(0, 0, 0, 0.35);
+        --backdrop-color: rgba(0, 0, 0, 0.4);
       }
 
       :root[data-theme='dark'] {
-        --primary: rgba(10, 13, 24, 1);
+        --primary: rgba(2, 3, 5, 1);
         --secondary: rgba(28, 33, 44, 1);
         --text-primary: rgba(238, 238, 238, 1);
-        --text-secondary: rgba(207, 207, 207, 1);
-        --primary-a: rgba(19, 25, 46, 1);
-        --primary-b: rgba(25, 33, 60, 1);
-        --primary-c: rgba(31, 40, 74, 1);
-        --text-primary-a: rgba(187, 187, 187, 1);
-        --text-primary-b: rgba(162, 162, 162, 1);
-        --text-primary-c: rgba(136, 136, 136, 1);
-        --secondary-a: rgba(40, 47, 63, 1);
-        --secondary-b: rgba(48, 56, 75, 1);
-        --secondary-c: rgba(56, 66, 88, 1);
-        --text-secondary-a: rgba(156, 156, 156, 1);
-        --text-secondary-b: rgba(131, 131, 131, 1);
-        --text-secondary-c: rgba(105, 105, 105, 1);
-        --shadow-color: rgba(10, 13, 24, 0.5);
-        --backdrop-color: rgba(10, 13, 24, 0.4);
-        --scrollbar-color: var(--text-secondary);
+        --text-secondary: rgba(238, 238, 238, 1);
+        --primary-a: rgba(11, 16, 27, 1);
+        --primary-b: rgba(17, 25, 41, 1);
+        --primary-c: rgba(22, 34, 56, 1);
+        --text-primary-a: rgba(223, 223, 223, 1);
+        --text-primary-b: rgba(213, 213, 213, 1);
+        --text-primary-c: rgba(202, 202, 202, 1);
+        --secondary-a: rgba(42, 53, 74, 1);
+        --secondary-b: rgba(50, 62, 87, 1);
+        --secondary-c: rgba(57, 71, 100, 1);
+        --text-secondary-a: rgba(223, 223, 223, 1);
+        --text-secondary-b: rgba(213, 213, 213, 1);
+        --text-secondary-c: rgba(202, 202, 202, 1);
+        --shadow-color: rgba(0, 0, 0, 0.35);
+        --backdrop-color: rgba(0, 0, 0, 0.4);
       }
 
       @media (prefers-color-scheme: dark) {
         :root:not([data-theme]) {
-          --primary: rgba(10, 13, 24, 1);
+          --primary: rgba(2, 3, 5, 1);
           --secondary: rgba(28, 33, 44, 1);
           --text-primary: rgba(238, 238, 238, 1);
-          --text-secondary: rgba(207, 207, 207, 1);
-          --primary-a: rgba(19, 25, 46, 1);
-          --primary-b: rgba(25, 33, 60, 1);
-          --primary-c: rgba(31, 40, 74, 1);
-          --text-primary-a: rgba(187, 187, 187, 1);
-          --text-primary-b: rgba(162, 162, 162, 1);
-          --text-primary-c: rgba(136, 136, 136, 1);
-          --secondary-a: rgba(40, 47, 63, 1);
-          --secondary-b: rgba(48, 56, 75, 1);
-          --secondary-c: rgba(56, 66, 88, 1);
-          --text-secondary-a: rgba(156, 156, 156, 1);
-          --text-secondary-b: rgba(131, 131, 131, 1);
-          --text-secondary-c: rgba(105, 105, 105, 1);
-          --shadow-color: rgba(10, 13, 24, 0.5);
-          --backdrop-color: rgba(10, 13, 24, 0.4);
-          --scrollbar-color: var(--text-secondary);
+          --text-secondary: rgba(238, 238, 238, 1);
+          --primary-a: rgba(11, 16, 27, 1);
+          --primary-b: rgba(17, 25, 41, 1);
+          --primary-c: rgba(22, 34, 56, 1);
+          --text-primary-a: rgba(223, 223, 223, 1);
+          --text-primary-b: rgba(213, 213, 213, 1);
+          --text-primary-c: rgba(202, 202, 202, 1);
+          --secondary-a: rgba(42, 53, 74, 1);
+          --secondary-b: rgba(50, 62, 87, 1);
+          --secondary-c: rgba(57, 71, 100, 1);
+          --text-secondary-a: rgba(223, 223, 223, 1);
+          --text-secondary-b: rgba(213, 213, 213, 1);
+          --text-secondary-c: rgba(202, 202, 202, 1);
+          --shadow-color: rgba(0, 0, 0, 0.35);
+          --backdrop-color: rgba(0, 0, 0, 0.4);
         }
       }
-
+    </style>
+    <style>
       html,
       body {
         background-color: var(--primary);
       }
-    </style>
-    <style>
+
       html:has(#ssr-curtain),
       html:has(#ssr-curtain) body {
         overflow: hidden;
@@ -272,20 +284,20 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: var(--primary);
+        background-color: var(--primary);
         z-index: 999999;
         display: flex;
         align-items: center;
         justify-content: center;
       }
     </style>
-    <script type="module" crossorigin src="/_assets/index-CJ4cGeMt.js"></script>
-    <link rel="stylesheet" crossorigin href="/_assets/style-C8tMhH2a.css">
+    <script type="module" crossorigin src="/_assets/index-0xWVK5gn.js"></script>
+    <link rel="stylesheet" crossorigin href="/_assets/style-BQDHH0SO.css">
   </head>
   <body>
     <div id="ssr-curtain"></div>
     <div id="root">
-<div class="app"><div class="app__loading-wrapper"><div class="loading-component loading-component__primary" aria-busy="true"></div></div><div class="app__error-wrapper"><div class="size-error-component"><span role="img" aria-label="zoom-out" class="anticon anticon-zoom-out"><svg viewBox="64 64 896 896" focusable="false" data-icon="zoom-out" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M637 443H325c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h312c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8zm284 424L775 721c122.1-148.9 113.6-369.5-26-509-148-148.1-388.4-148.1-537 0-148.1 148.6-148.1 389 0 537 139.5 139.6 360.1 148.1 509 26l146 146c3.2 2.8 8.3 2.8 11 0l43-43c2.8-2.7 2.8-7.8 0-11zM696 696c-118.8 118.7-311.2 118.7-430 0-118.7-118.8-118.7-311.2 0-430 118.8-118.7 311.2-118.7 430 0 118.7 118.8 118.7 311.2 0 430z"></path></svg></span></div></div><div class="app__content-wrapper"><!--$--><div class="site-wrapper site-wrapper__not-ready site-wrapper__fade"><div class="site-wrapper__content-shell-background-wrapper"><div class="site-wrapper__content-shell"><main role="main" tabindex="-1" class="site-wrapper__main"><div class="generic-page"><div class="markdown-renderer-gated"><!--$--><div class="markdown-renderer markdown-styles"><h1 class="mdx-heading-one"><span type="button" tabindex="0" class="button mdx-heading-one__back-button disable-mdx-styles button__no-padding" aria-label="Zurück" aria-disabled="false" variant="secondary-b"></span>Allgemeine Geschäfts­bedin­gun­gen</h1>
+<div class="app"><div class="app__loading-wrapper"><div class="loading-component loading-component__initial" aria-busy="true"></div></div><div class="app__error-wrapper"><div class="size-error-component"><span role="img" aria-label="zoom-out" class="anticon anticon-zoom-out"><svg viewBox="64 64 896 896" focusable="false" data-icon="zoom-out" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M637 443H325c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h312c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8zm284 424L775 721c122.1-148.9 113.6-369.5-26-509-148-148.1-388.4-148.1-537 0-148.1 148.6-148.1 389 0 537 139.5 139.6 360.1 148.1 509 26l146 146c3.2 2.8 8.3 2.8 11 0l43-43c2.8-2.7 2.8-7.8 0-11zM696 696c-118.8 118.7-311.2 118.7-430 0-118.7-118.8-118.7-311.2 0-430 118.8-118.7 311.2-118.7 430 0 118.7 118.8 118.7 311.2 0 430z"></path></svg></span></div></div><div class="app__content-wrapper"><!--$--><div tabindex="-1" class="site-wrapper site-wrapper__not-ready site-wrapper__fade"><div class="site-wrapper__content-background-wrapper"><div class="site-wrapper__content"><main role="main" class="site-wrapper__main"><div class="generic-page"><div class="markdown-renderer-gated"><!--$--><div class="markdown-renderer markdown-styles"><h1 class="mdx-heading-one"><span type="button" tabindex="0" class="button mdx-heading-one__back-button disable-mdx-styles button__no-padding" aria-label="Zurück" aria-disabled="false" variant="secondary-b"></span>Allgemeine Geschäfts­bedin­gun­gen</h1>
 <div class="mdx-subtitle disable-mdx-styles"><p class="mdx-subtitle__text"><strong>Version:</strong> 20. Januar 2025</p></div>
 <p>Allgemeine Geschäftsbedingungen für Dienstleistungen in der Informationstechnologie und Softwareentwicklung von JLE Systems - Ing. Julian Lamplmair.</p>
 <h2>1. Geltungsbereich und Definitionen</h2>
@@ -351,7 +363,7 @@
 <p><strong>8.3</strong> <strong>Höhere Gewalt:</strong> Ereignisse höherer Gewalt (z. B. Stromausfall, Internetausfall, Ausfall von Cloud-Providern, Pandemie) verlängern die Lieferfristen um die Dauer der Störung. Dauert die Störung länger als 4 Wochen an, sind beide Parteien berechtigt, vom Vertrag hinsichtlich des noch nicht erfüllten Teils zurückzutreten.</p>
 <h2>9. Geheimhaltung und Datenschutz</h2>
 <p><strong>9.1</strong> Beide Vertragspartner verpflichten sich, alle im Rahmen der Zusammenarbeit bekannt gewordenen Geschäftsgeheimnisse vertraulich zu behandeln. Dies gilt nicht für Informationen, die (i) bereits öffentlich bekannt sind, (ii) rechtmäßig von Dritten bekannt wurden, oder (iii) aufgrund gesetzlicher Pflichten oder behördlicher Anordnung offengelegt werden müssen.</p>
-<p><strong>9.2</strong> Der Auftragnehmer verarbeitet personenbezogene Daten des Kunden zur Vertragserfüllung. Details hierzu finden sich in der Datenschutzerklärung, abrufbar unter: <a aria-label="Datenschutzerklärung" style="cursor:pointer" aria-current="false" href="//privacy-policy">Datenschutzerklärung</a>.</p>
+<p><strong>9.2</strong> Der Auftragnehmer verarbeitet personenbezogene Daten des Kunden zur Vertragserfüllung. Details hierzu finden sich in der Datenschutzerklärung, abrufbar unter: <a aria-label="Datenschutzerklärung" class="mdx-link mdx-link__link" style="cursor:pointer" aria-current="false" href="//privacy-policy">Datenschutzerklärung</a>.</p>
 <p><strong>9.3</strong> <strong>Auftragsverarbeitung:</strong> Sofern der Auftragnehmer Zugriff auf personenbezogene Daten hat, für die der Kunde Verantwortlicher ist (z. B. Hosting, Datenbank-Wartung), schließen die Parteien bei Bedarf eine gesonderte Vereinbarung zur Auftragsverarbeitung (AVV) gemäß Art. 28 DSGVO ab.</p>
 <h2>10. Widerrufsrecht für Verbraucher (FAGG)</h2>
 <p><strong>10.1</strong> Sofern der Kunde Verbraucher ist und der Vertrag im Fernabsatz (E-Mail, Telefon) geschlossen wurde, steht ihm grundsätzlich ein gesetzliches Rücktrittsrecht von 14 Tagen zu. Verlangt der Verbraucher ausdrücklich den Beginn der Leistungserbringung (Dienstleistung) vor Ablauf der Rücktrittsfrist, hat er im Falle eines Rücktritts einen anteiligen Betrag für die bis dahin erbrachten Leistungen zu zahlen.</p>
@@ -359,7 +371,7 @@
 <p><strong>10.3</strong> <strong>Ausübung des Widerrufsrechts:</strong> Um Ihr Widerrufsrecht auszuüben, müssen Sie mich</p>
 <p><strong>JLE Systems – Ing. Julian Lamplmair</strong><br/>
 <!-- -->Reitern 21/2, 4213 Unterweitersdorf, Österreich<br/>
-<!-- -->E-Mail: <a aria-label="office@jle.systems" href="mailto:office@jle.systems" target="_blank" rel="noopener noreferrer" style="cursor:pointer">office@jle.systems</a></p>
+<!-- -->E-Mail: <a aria-label="office@jle.systems" href="mailto:office@jle.systems" target="_blank" rel="noopener noreferrer" class="mdx-link mdx-link__link" style="cursor:pointer">office@jle.systems</a></p>
 <p>mittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist.</p>
 <p><strong>10.4</strong> <strong>Widerrufsfrist / Fristbeginn:</strong> Die Widerrufsfrist beträgt 14 Tage ab dem Tag des Vertragsabschlusses (bei Dienstleistungen). Bei digitalen Inhalten, die nicht auf einem körperlichen Datenträger geliefert werden, gelten zusätzlich die Regelungen gemäß 10.2.</p>
 <p><strong>10.5</strong> <strong>Folgen des Widerrufs (Dienstleistungen):</strong> Wenn Sie diesen Vertrag widerrufen, habe ich Ihnen alle Zahlungen, die ich von Ihnen erhalten habe, unverzüglich und spätestens binnen 14 Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei mir eingegangen ist. Für diese Rückzahlung verwende ich dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, es wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.</p>
@@ -392,7 +404,7 @@
 <!-- -->Reitern 21/2<br/>
 <!-- -->4213 Unterweitersdorf<br/>
 <!-- -->Österreich</p>
-<p>E-Mail: <a aria-label="office@jle.systems" href="mailto:office@jle.systems" target="_blank" rel="noopener noreferrer" style="cursor:pointer">office@jle.systems</a></p>
+<p>E-Mail: <a aria-label="office@jle.systems" href="mailto:office@jle.systems" target="_blank" rel="noopener noreferrer" class="mdx-link mdx-link__link" style="cursor:pointer">office@jle.systems</a></p>
 <p>Hiermit widerrufe ich den von mir abgeschlossenen Vertrag über die Erbringung der folgenden Dienstleistung / den Kauf der folgenden digitalen Inhalte:</p>
 <ul>
 <li>Bestellt/abgeschlossen am: <code>______________________</code></li>

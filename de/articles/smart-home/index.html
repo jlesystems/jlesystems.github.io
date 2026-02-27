@@ -56,7 +56,8 @@
     />
     <title data-origin="html-placeholders">Smart Home | JLE Systems - Software &amp; Integration</title>
     <meta name="description" data-origin="html-placeholders" content="Ein robustes Smart Home trennt strikt zwischen kritischer Infrastruktur und übergeordneter Intelligenz. Für die Basis empfehlen sich ausfallsichere, dezentrale Bussysteme oder eine zentrale SPS, während offene Plattformen wie Home Assistant die intelligente Steuerung und flexible Nachrüstungen übernehmen." />
-    <meta name="theme-color" data-origin="html-placeholders" content="#0a0d18" />
+    <meta name="theme-color" data-origin="html-placeholders" media="(prefers-color-scheme: light)" content="#0a0d18" />
+    <meta name="theme-color" data-origin="html-placeholders" media="(prefers-color-scheme: dark)" content="#020305" />
     <meta name="color-scheme" data-origin="html-placeholders" content="light dark" />
     <link rel="canonical" data-origin="html-placeholders" href="https://jle.systems/de/articles/smart-home" />
     <meta property="og:site_name" data-origin="html-placeholders" content="JLE Systems" />
@@ -196,82 +197,93 @@
         ]
       }
     </script>
+    <script>
+      (function () {
+        try {
+          var mode = localStorage.getItem('theme-mode');
+          if (mode === 'light' || mode === 'dark') {
+            document.documentElement.setAttribute('data-theme', mode);
+          } else {
+            document.documentElement.removeAttribute('data-theme');
+          }
+        } catch {
+          document.documentElement.removeAttribute('data-theme');
+        }
+      })();
+    </script>
     <style>
       :root {
         color-scheme: light dark;
         --primary: rgba(10, 13, 24, 1);
-        --secondary: rgba(252, 253, 255, 1);
+        --secondary: rgba(238, 238, 238, 1);
         --text-primary: rgba(238, 238, 238, 1);
-        --text-secondary: rgba(15, 15, 15, 1);
+        --text-secondary: rgba(0, 0, 0, 1);
         --primary-a: rgba(19, 25, 46, 1);
         --primary-b: rgba(25, 33, 60, 1);
         --primary-c: rgba(31, 40, 74, 1);
-        --text-primary-a: rgba(187, 187, 187, 1);
-        --text-primary-b: rgba(162, 162, 162, 1);
-        --text-primary-c: rgba(136, 136, 136, 1);
-        --secondary-a: rgba(242, 246, 255, 1);
-        --secondary-b: rgba(232, 239, 255, 1);
-        --secondary-c: rgba(221, 233, 255, 1);
-        --text-secondary-a: rgba(66, 66, 66, 1);
-        --text-secondary-b: rgba(92, 92, 92, 1);
-        --text-secondary-c: rgba(117, 117, 117, 1);
-        --shadow-color: rgba(10, 13, 24, 0.5);
-        --backdrop-color: rgba(10, 13, 24, 0.4);
-        --scrollbar-color: var(--text-secondary);
+        --text-primary-a: rgba(223, 223, 223, 1);
+        --text-primary-b: rgba(213, 213, 213, 1);
+        --text-primary-c: rgba(202, 202, 202, 1);
+        --secondary-a: rgba(203, 207, 218, 1);
+        --secondary-b: rgba(191, 195, 210, 1);
+        --secondary-c: rgba(179, 184, 201, 1);
+        --text-secondary-a: rgba(15, 15, 15, 1);
+        --text-secondary-b: rgba(26, 26, 26, 1);
+        --text-secondary-c: rgba(36, 36, 36, 1);
+        --shadow-color: rgba(0, 0, 0, 0.35);
+        --backdrop-color: rgba(0, 0, 0, 0.4);
       }
 
       :root[data-theme='dark'] {
-        --primary: rgba(10, 13, 24, 1);
+        --primary: rgba(2, 3, 5, 1);
         --secondary: rgba(28, 33, 44, 1);
         --text-primary: rgba(238, 238, 238, 1);
-        --text-secondary: rgba(207, 207, 207, 1);
-        --primary-a: rgba(19, 25, 46, 1);
-        --primary-b: rgba(25, 33, 60, 1);
-        --primary-c: rgba(31, 40, 74, 1);
-        --text-primary-a: rgba(187, 187, 187, 1);
-        --text-primary-b: rgba(162, 162, 162, 1);
-        --text-primary-c: rgba(136, 136, 136, 1);
-        --secondary-a: rgba(40, 47, 63, 1);
-        --secondary-b: rgba(48, 56, 75, 1);
-        --secondary-c: rgba(56, 66, 88, 1);
-        --text-secondary-a: rgba(156, 156, 156, 1);
-        --text-secondary-b: rgba(131, 131, 131, 1);
-        --text-secondary-c: rgba(105, 105, 105, 1);
-        --shadow-color: rgba(10, 13, 24, 0.5);
-        --backdrop-color: rgba(10, 13, 24, 0.4);
-        --scrollbar-color: var(--text-secondary);
+        --text-secondary: rgba(238, 238, 238, 1);
+        --primary-a: rgba(11, 16, 27, 1);
+        --primary-b: rgba(17, 25, 41, 1);
+        --primary-c: rgba(22, 34, 56, 1);
+        --text-primary-a: rgba(223, 223, 223, 1);
+        --text-primary-b: rgba(213, 213, 213, 1);
+        --text-primary-c: rgba(202, 202, 202, 1);
+        --secondary-a: rgba(42, 53, 74, 1);
+        --secondary-b: rgba(50, 62, 87, 1);
+        --secondary-c: rgba(57, 71, 100, 1);
+        --text-secondary-a: rgba(223, 223, 223, 1);
+        --text-secondary-b: rgba(213, 213, 213, 1);
+        --text-secondary-c: rgba(202, 202, 202, 1);
+        --shadow-color: rgba(0, 0, 0, 0.35);
+        --backdrop-color: rgba(0, 0, 0, 0.4);
       }
 
       @media (prefers-color-scheme: dark) {
         :root:not([data-theme]) {
-          --primary: rgba(10, 13, 24, 1);
+          --primary: rgba(2, 3, 5, 1);
           --secondary: rgba(28, 33, 44, 1);
           --text-primary: rgba(238, 238, 238, 1);
-          --text-secondary: rgba(207, 207, 207, 1);
-          --primary-a: rgba(19, 25, 46, 1);
-          --primary-b: rgba(25, 33, 60, 1);
-          --primary-c: rgba(31, 40, 74, 1);
-          --text-primary-a: rgba(187, 187, 187, 1);
-          --text-primary-b: rgba(162, 162, 162, 1);
-          --text-primary-c: rgba(136, 136, 136, 1);
-          --secondary-a: rgba(40, 47, 63, 1);
-          --secondary-b: rgba(48, 56, 75, 1);
-          --secondary-c: rgba(56, 66, 88, 1);
-          --text-secondary-a: rgba(156, 156, 156, 1);
-          --text-secondary-b: rgba(131, 131, 131, 1);
-          --text-secondary-c: rgba(105, 105, 105, 1);
-          --shadow-color: rgba(10, 13, 24, 0.5);
-          --backdrop-color: rgba(10, 13, 24, 0.4);
-          --scrollbar-color: var(--text-secondary);
+          --text-secondary: rgba(238, 238, 238, 1);
+          --primary-a: rgba(11, 16, 27, 1);
+          --primary-b: rgba(17, 25, 41, 1);
+          --primary-c: rgba(22, 34, 56, 1);
+          --text-primary-a: rgba(223, 223, 223, 1);
+          --text-primary-b: rgba(213, 213, 213, 1);
+          --text-primary-c: rgba(202, 202, 202, 1);
+          --secondary-a: rgba(42, 53, 74, 1);
+          --secondary-b: rgba(50, 62, 87, 1);
+          --secondary-c: rgba(57, 71, 100, 1);
+          --text-secondary-a: rgba(223, 223, 223, 1);
+          --text-secondary-b: rgba(213, 213, 213, 1);
+          --text-secondary-c: rgba(202, 202, 202, 1);
+          --shadow-color: rgba(0, 0, 0, 0.35);
+          --backdrop-color: rgba(0, 0, 0, 0.4);
         }
       }
-
+    </style>
+    <style>
       html,
       body {
         background-color: var(--primary);
       }
-    </style>
-    <style>
+
       html:has(#ssr-curtain),
       html:has(#ssr-curtain) body {
         overflow: hidden;
@@ -283,48 +295,49 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: var(--primary);
+        background-color: var(--primary);
         z-index: 999999;
         display: flex;
         align-items: center;
         justify-content: center;
       }
     </style>
-    <script type="module" crossorigin src="/_assets/index-CJ4cGeMt.js"></script>
-    <link rel="stylesheet" crossorigin href="/_assets/style-C8tMhH2a.css">
+    <script type="module" crossorigin src="/_assets/index-0xWVK5gn.js"></script>
+    <link rel="stylesheet" crossorigin href="/_assets/style-BQDHH0SO.css">
   </head>
   <body>
     <div id="ssr-curtain"></div>
     <div id="root">
-<div class="app"><div class="app__loading-wrapper"><div class="loading-component loading-component__primary" aria-busy="true"></div></div><div class="app__error-wrapper"><div class="size-error-component"><span role="img" aria-label="zoom-out" class="anticon anticon-zoom-out"><svg viewBox="64 64 896 896" focusable="false" data-icon="zoom-out" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M637 443H325c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h312c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8zm284 424L775 721c122.1-148.9 113.6-369.5-26-509-148-148.1-388.4-148.1-537 0-148.1 148.6-148.1 389 0 537 139.5 139.6 360.1 148.1 509 26l146 146c3.2 2.8 8.3 2.8 11 0l43-43c2.8-2.7 2.8-7.8 0-11zM696 696c-118.8 118.7-311.2 118.7-430 0-118.7-118.8-118.7-311.2 0-430 118.8-118.7 311.2-118.7 430 0 118.7 118.8 118.7 311.2 0 430z"></path></svg></span></div></div><div class="app__content-wrapper"><!--$--><div class="menu"><div class="menu__sidebar"><header role="banner" class="menu__header"><span type="button" tabindex="0" class="button menu__open-button" aria-label="Menü erweitern" aria-disabled="false" variant="primary-b"><span role="img" aria-label="double-right" class="anticon anticon-double-right"><svg viewBox="64 64 896 896" focusable="false" data-icon="double-right" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 00188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 00492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"></path></svg></span></span><span class="menu__title menu__title-center" aria-disabled="true"><div class="menu__title-image"><div class="lazy-image lazy-image__sizer" style="width:100%;--lazy-image-ar:1"></div></div></span></header><nav role="navigation" class="menu__items"><a aria-label="Start" variant="primary-b" class="button menu-item menu-item__no-margin button__no-padding button__selectable" style="cursor:pointer" aria-current="false" href="/"><div class="menu-item__icon-container"><span role="img" aria-label="home" class="anticon anticon-home"><svg viewBox="64 64 896 896" focusable="false" data-icon="home" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 00-44.4 0L77.5 505a63.9 63.9 0 00-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0018.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"></path></svg></span></div><div class="menu-item__title menu-item__title-center"><span class="text text__no-wrap text__no-ellipsis" aria-label="Start">Start</span></div></a><a aria-label="Lösungen" variant="primary-b" class="button menu-item button__no-padding button__selectable" style="cursor:pointer" aria-current="false" href="//solutions"><div class="menu-item__icon-container"><span role="img" aria-label="bulb" class="anticon anticon-bulb"><svg viewBox="64 64 896 896" focusable="false" data-icon="bulb" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M632 888H392c-4.4 0-8 3.6-8 8v32c0 17.7 14.3 32 32 32h192c17.7 0 32-14.3 32-32v-32c0-4.4-3.6-8-8-8zM512 64c-181.1 0-328 146.9-328 328 0 121.4 66 227.4 164 284.1V792c0 17.7 14.3 32 32 32h264c17.7 0 32-14.3 32-32V676.1c98-56.7 164-162.7 164-284.1 0-181.1-146.9-328-328-328zm127.9 549.8L604 634.6V752H420V634.6l-35.9-20.8C305.4 568.3 256 484.5 256 392c0-141.4 114.6-256 256-256s256 114.6 256 256c0 92.5-49.4 176.3-128.1 221.8z"></path></svg></span></div><div class="menu-item__title menu-item__title-center"><span class="text text__no-wrap text__no-ellipsis" aria-label="Lösungen">Lösungen</span></div></a><a aria-label="Kontakt" variant="primary-b" class="button menu-item button__no-padding button__selectable" style="cursor:pointer" aria-current="false" href="//contact"><div class="menu-item__icon-container"><span role="img" aria-label="phone" class="anticon anticon-phone"><svg viewBox="64 64 896 896" focusable="false" data-icon="phone" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M877.1 238.7L770.6 132.3c-13-13-30.4-20.3-48.8-20.3s-35.8 7.2-48.8 20.3L558.3 246.8c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l89.6 89.7a405.46 405.46 0 01-86.4 127.3c-36.7 36.9-79.6 66-127.2 86.6l-89.6-89.7c-13-13-30.4-20.3-48.8-20.3a68.2 68.2 0 00-48.8 20.3L132.3 673c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l106.4 106.4c22.2 22.2 52.8 34.9 84.2 34.9 6.5 0 12.8-.5 19.2-1.6 132.4-21.8 263.8-92.3 369.9-198.3C818 606 888.4 474.6 910.4 342.1c6.3-37.6-6.3-76.3-33.3-103.4zm-37.6 91.5c-19.5 117.9-82.9 235.5-178.4 331s-213 158.9-330.9 178.4c-14.8 2.5-30-2.5-40.8-13.2L184.9 721.9 295.7 611l119.8 120 .9.9 21.6-8a481.29 481.29 0 00285.7-285.8l8-21.6-120.8-120.7 110.8-110.9 104.5 104.5c10.8 10.8 15.8 26 13.3 40.8z"></path></svg></span></div><div class="menu-item__title menu-item__title-center"><span class="text text__no-wrap text__no-ellipsis" aria-label="Kontakt">Kontakt</span></div></a><a aria-label="Über mich" variant="primary-b" class="button menu-item button__no-padding button__selectable" style="cursor:pointer" aria-current="false" href="//about"><div class="menu-item__icon-container"><span role="img" aria-label="user" class="anticon anticon-user"><svg viewBox="64 64 896 896" focusable="false" data-icon="user" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 00-80.6 119.5A371.7 371.7 0 00136 901.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 008-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"></path></svg></span></div><div class="menu-item__title menu-item__title-center"><span class="text text__no-wrap text__no-ellipsis" aria-label="Über mich">Über mich</span></div></a><a aria-label="Artikel" variant="primary-b" class="button menu-item menu-item__selected button__no-padding button__selectable button__selected" style="cursor:pointer" aria-current="false" href="//articles"><div class="menu-item__icon-container"><span role="img" aria-label="read" class="anticon anticon-read"><svg viewBox="64 64 896 896" focusable="false" data-icon="read" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M928 161H699.2c-49.1 0-97.1 14.1-138.4 40.7L512 233l-48.8-31.3A255.2 255.2 0 00324.8 161H96c-17.7 0-32 14.3-32 32v568c0 17.7 14.3 32 32 32h228.8c49.1 0 97.1 14.1 138.4 40.7l44.4 28.6c1.3.8 2.8 1.3 4.3 1.3s3-.4 4.3-1.3l44.4-28.6C602 807.1 650.1 793 699.2 793H928c17.7 0 32-14.3 32-32V193c0-17.7-14.3-32-32-32zM324.8 721H136V233h188.8c35.4 0 69.8 10.1 99.5 29.2l48.8 31.3 6.9 4.5v462c-47.6-25.6-100.8-39-155.2-39zm563.2 0H699.2c-54.4 0-107.6 13.4-155.2 39V298l6.9-4.5 48.8-31.3c29.7-19.1 64.1-29.2 99.5-29.2H888v488zM396.9 361H211.1c-3.9 0-7.1 3.4-7.1 7.5v45c0 4.1 3.2 7.5 7.1 7.5h185.7c3.9 0 7.1-3.4 7.1-7.5v-45c.1-4.1-3.1-7.5-7-7.5zm223.1 7.5v45c0 4.1 3.2 7.5 7.1 7.5h185.7c3.9 0 7.1-3.4 7.1-7.5v-45c0-4.1-3.2-7.5-7.1-7.5H627.1c-3.9 0-7.1 3.4-7.1 7.5zM396.9 501H211.1c-3.9 0-7.1 3.4-7.1 7.5v45c0 4.1 3.2 7.5 7.1 7.5h185.7c3.9 0 7.1-3.4 7.1-7.5v-45c.1-4.1-3.1-7.5-7-7.5zm416 0H627.1c-3.9 0-7.1 3.4-7.1 7.5v45c0 4.1 3.2 7.5 7.1 7.5h185.7c3.9 0 7.1-3.4 7.1-7.5v-45c.1-4.1-3.1-7.5-7-7.5z"></path></svg></span></div><div class="menu-item__title menu-item__title-center"><span class="text text__no-wrap text__no-ellipsis" aria-label="Artikel">Artikel</span></div></a></nav><div class="menu__footer"><a aria-label="Info" variant="primary-b" class="button menu__footer-button button__selectable" style="cursor:pointer" aria-current="false" href="//info"><span role="img" aria-label="info-circle" class="anticon anticon-info-circle"><svg viewBox="64 64 896 896" focusable="false" data-icon="info-circle" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path><path d="M464 336a48 48 0 1096 0 48 48 0 10-96 0zm72 112h-48c-4.4 0-8 3.6-8 8v272c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V456c0-4.4-3.6-8-8-8z"></path></svg></span></a><span type="button" tabindex="0" class="button theme-rotator menu__footer-button" aria-label="Design ändern zu Hell" aria-disabled="false" variant="primary-b"><span role="img" aria-label="desktop" class="anticon anticon-desktop"><svg viewBox="64 64 896 896" focusable="false" data-icon="desktop" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M928 140H96c-17.7 0-32 14.3-32 32v496c0 17.7 14.3 32 32 32h380v112H304c-8.8 0-16 7.2-16 16v48c0 4.4 3.6 8 8 8h432c4.4 0 8-3.6 8-8v-48c0-8.8-7.2-16-16-16H548V700h380c17.7 0 32-14.3 32-32V172c0-17.7-14.3-32-32-32zm-40 488H136V212h752v416z"></path></svg></span></span></div></div><div class="menu__content"><!--$--><div class="site-wrapper site-wrapper__not-ready site-wrapper__fade"><div class="site-wrapper__content-shell-background-wrapper"><div class="site-wrapper__content-shell"><main role="main" tabindex="-1" class="site-wrapper__main"><div class="generic-page"><div class="markdown-renderer-gated"><!--$--><div class="markdown-renderer markdown-styles"><h1 class="mdx-heading-one"><span type="button" tabindex="0" class="button mdx-heading-one__back-button disable-mdx-styles button__no-padding" aria-label="Zurück" aria-disabled="false" variant="secondary-b"></span>Smart Home – Ein technischer Leitfaden</h1>
-<div style="--float-image--flex-width:60%;--float-image--max-width:36rem" class="mdx-image disable-mdx-styles mdx-image__right"><div class="lazy-image lazy-image__sizer" style="width:100%;--lazy-image-ar:1.7777777777777777"></div></div>
+<div class="app"><div class="app__loading-wrapper"><div class="loading-component loading-component__initial" aria-busy="true"></div></div><div class="app__error-wrapper"><div class="size-error-component"><span role="img" aria-label="zoom-out" class="anticon anticon-zoom-out"><svg viewBox="64 64 896 896" focusable="false" data-icon="zoom-out" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M637 443H325c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h312c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8zm284 424L775 721c122.1-148.9 113.6-369.5-26-509-148-148.1-388.4-148.1-537 0-148.1 148.6-148.1 389 0 537 139.5 139.6 360.1 148.1 509 26l146 146c3.2 2.8 8.3 2.8 11 0l43-43c2.8-2.7 2.8-7.8 0-11zM696 696c-118.8 118.7-311.2 118.7-430 0-118.7-118.8-118.7-311.2 0-430 118.8-118.7 311.2-118.7 430 0 118.7 118.8 118.7 311.2 0 430z"></path></svg></span></div></div><div class="app__content-wrapper"><!--$--><div class="menu"><div class="menu__sidebar"><header role="banner" class="menu__header"><span type="button" tabindex="0" class="button menu__open-button" aria-label="Menü erweitern" aria-disabled="false" variant="primary-b"><span role="img" aria-label="double-right" class="anticon anticon-double-right"><svg viewBox="64 64 896 896" focusable="false" data-icon="double-right" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 00188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 00492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"></path></svg></span></span><span class="menu__title menu__title-center" aria-disabled="true"><div class="menu__title-image"><div class="lazy-image lazy-image__sizer" style="width:100%;--lazy-image-ar:1"></div></div></span></header><nav role="navigation" class="menu__items"><a aria-label="Start" variant="primary-b" class="button menu-item menu-item__no-margin button__no-padding button__selectable" style="cursor:pointer" aria-current="false" href="/"><div class="menu-item__icon-container"><span role="img" aria-label="home" class="anticon anticon-home"><svg viewBox="64 64 896 896" focusable="false" data-icon="home" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 00-44.4 0L77.5 505a63.9 63.9 0 00-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0018.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"></path></svg></span></div><div class="menu-item__title menu-item__title-center"><span class="text text__no-wrap text__no-ellipsis" aria-label="Start">Start</span></div></a><a aria-label="Lösungen" variant="primary-b" class="button menu-item button__no-padding button__selectable" style="cursor:pointer" aria-current="false" href="//solutions"><div class="menu-item__icon-container"><span role="img" aria-label="bulb" class="anticon anticon-bulb"><svg viewBox="64 64 896 896" focusable="false" data-icon="bulb" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M632 888H392c-4.4 0-8 3.6-8 8v32c0 17.7 14.3 32 32 32h192c17.7 0 32-14.3 32-32v-32c0-4.4-3.6-8-8-8zM512 64c-181.1 0-328 146.9-328 328 0 121.4 66 227.4 164 284.1V792c0 17.7 14.3 32 32 32h264c17.7 0 32-14.3 32-32V676.1c98-56.7 164-162.7 164-284.1 0-181.1-146.9-328-328-328zm127.9 549.8L604 634.6V752H420V634.6l-35.9-20.8C305.4 568.3 256 484.5 256 392c0-141.4 114.6-256 256-256s256 114.6 256 256c0 92.5-49.4 176.3-128.1 221.8z"></path></svg></span></div><div class="menu-item__title menu-item__title-center"><span class="text text__no-wrap text__no-ellipsis" aria-label="Lösungen">Lösungen</span></div></a><a aria-label="Kontakt" variant="primary-b" class="button menu-item button__no-padding button__selectable" style="cursor:pointer" aria-current="false" href="//contact"><div class="menu-item__icon-container"><span role="img" aria-label="phone" class="anticon anticon-phone"><svg viewBox="64 64 896 896" focusable="false" data-icon="phone" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M877.1 238.7L770.6 132.3c-13-13-30.4-20.3-48.8-20.3s-35.8 7.2-48.8 20.3L558.3 246.8c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l89.6 89.7a405.46 405.46 0 01-86.4 127.3c-36.7 36.9-79.6 66-127.2 86.6l-89.6-89.7c-13-13-30.4-20.3-48.8-20.3a68.2 68.2 0 00-48.8 20.3L132.3 673c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l106.4 106.4c22.2 22.2 52.8 34.9 84.2 34.9 6.5 0 12.8-.5 19.2-1.6 132.4-21.8 263.8-92.3 369.9-198.3C818 606 888.4 474.6 910.4 342.1c6.3-37.6-6.3-76.3-33.3-103.4zm-37.6 91.5c-19.5 117.9-82.9 235.5-178.4 331s-213 158.9-330.9 178.4c-14.8 2.5-30-2.5-40.8-13.2L184.9 721.9 295.7 611l119.8 120 .9.9 21.6-8a481.29 481.29 0 00285.7-285.8l8-21.6-120.8-120.7 110.8-110.9 104.5 104.5c10.8 10.8 15.8 26 13.3 40.8z"></path></svg></span></div><div class="menu-item__title menu-item__title-center"><span class="text text__no-wrap text__no-ellipsis" aria-label="Kontakt">Kontakt</span></div></a><a aria-label="Über mich" variant="primary-b" class="button menu-item button__no-padding button__selectable" style="cursor:pointer" aria-current="false" href="//about"><div class="menu-item__icon-container"><span role="img" aria-label="user" class="anticon anticon-user"><svg viewBox="64 64 896 896" focusable="false" data-icon="user" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 00-80.6 119.5A371.7 371.7 0 00136 901.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 008-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"></path></svg></span></div><div class="menu-item__title menu-item__title-center"><span class="text text__no-wrap text__no-ellipsis" aria-label="Über mich">Über mich</span></div></a><a aria-label="Artikel" variant="primary-b" class="button menu-item menu-item__selected button__no-padding button__selectable button__selected" style="cursor:pointer" aria-current="false" href="//articles"><div class="menu-item__icon-container"><span role="img" aria-label="read" class="anticon anticon-read"><svg viewBox="64 64 896 896" focusable="false" data-icon="read" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M928 161H699.2c-49.1 0-97.1 14.1-138.4 40.7L512 233l-48.8-31.3A255.2 255.2 0 00324.8 161H96c-17.7 0-32 14.3-32 32v568c0 17.7 14.3 32 32 32h228.8c49.1 0 97.1 14.1 138.4 40.7l44.4 28.6c1.3.8 2.8 1.3 4.3 1.3s3-.4 4.3-1.3l44.4-28.6C602 807.1 650.1 793 699.2 793H928c17.7 0 32-14.3 32-32V193c0-17.7-14.3-32-32-32zM324.8 721H136V233h188.8c35.4 0 69.8 10.1 99.5 29.2l48.8 31.3 6.9 4.5v462c-47.6-25.6-100.8-39-155.2-39zm563.2 0H699.2c-54.4 0-107.6 13.4-155.2 39V298l6.9-4.5 48.8-31.3c29.7-19.1 64.1-29.2 99.5-29.2H888v488zM396.9 361H211.1c-3.9 0-7.1 3.4-7.1 7.5v45c0 4.1 3.2 7.5 7.1 7.5h185.7c3.9 0 7.1-3.4 7.1-7.5v-45c.1-4.1-3.1-7.5-7-7.5zm223.1 7.5v45c0 4.1 3.2 7.5 7.1 7.5h185.7c3.9 0 7.1-3.4 7.1-7.5v-45c0-4.1-3.2-7.5-7.1-7.5H627.1c-3.9 0-7.1 3.4-7.1 7.5zM396.9 501H211.1c-3.9 0-7.1 3.4-7.1 7.5v45c0 4.1 3.2 7.5 7.1 7.5h185.7c3.9 0 7.1-3.4 7.1-7.5v-45c.1-4.1-3.1-7.5-7-7.5zm416 0H627.1c-3.9 0-7.1 3.4-7.1 7.5v45c0 4.1 3.2 7.5 7.1 7.5h185.7c3.9 0 7.1-3.4 7.1-7.5v-45c.1-4.1-3.1-7.5-7-7.5z"></path></svg></span></div><div class="menu-item__title menu-item__title-center"><span class="text text__no-wrap text__no-ellipsis" aria-label="Artikel">Artikel</span></div></a></nav><div class="menu__footer"><a aria-label="Info" variant="primary-b" class="button menu__footer-button button__selectable" style="cursor:pointer" aria-current="false" href="//info"><span role="img" aria-label="info-circle" class="anticon anticon-info-circle"><svg viewBox="64 64 896 896" focusable="false" data-icon="info-circle" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path><path d="M464 336a48 48 0 1096 0 48 48 0 10-96 0zm72 112h-48c-4.4 0-8 3.6-8 8v272c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V456c0-4.4-3.6-8-8-8z"></path></svg></span></a><span type="button" tabindex="0" class="button theme-rotator menu__footer-button" aria-label="Design ändern zu Hell" aria-disabled="false" variant="primary-b"><span role="img" aria-label="desktop" class="anticon anticon-desktop"><svg viewBox="64 64 896 896" focusable="false" data-icon="desktop" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M928 140H96c-17.7 0-32 14.3-32 32v496c0 17.7 14.3 32 32 32h380v112H304c-8.8 0-16 7.2-16 16v48c0 4.4 3.6 8 8 8h432c4.4 0 8-3.6 8-8v-48c0-8.8-7.2-16-16-16H548V700h380c17.7 0 32-14.3 32-32V172c0-17.7-14.3-32-32-32zm-40 488H136V212h752v416z"></path></svg></span></span></div></div><div class="menu__content"><!--$--><div tabindex="-1" class="site-wrapper site-wrapper__not-ready site-wrapper__fade"><div class="site-wrapper__content-background-wrapper"><div class="site-wrapper__content"><main role="main" class="site-wrapper__main"><div class="generic-page"><div class="markdown-renderer-gated"><!--$--><div class="markdown-renderer markdown-styles"><h1 class="mdx-heading-one"><span type="button" tabindex="0" class="button mdx-heading-one__back-button disable-mdx-styles button__no-padding" aria-label="Zurück" aria-disabled="false" variant="secondary-b"></span>Smart Home – Ein technischer Leitfaden</h1>
+<div style="--float-image--flex-width:60%;--float-image--max-width:36rem" class="mdx-image disable-mdx-styles mdx-image__right"><div class="lazy-image lazy-image__exposed lazy-image__sizer" style="width:100%;--lazy-image-ar:1.7777777777777777"></div></div>
 <div class="mdx-subtitle disable-mdx-styles"><p class="mdx-subtitle__text"><strong>Warum muss mein Haus smart sein?</strong></p></div>
 <p>Meist verbindet man mit der Idee Spielereien, wie das Schalten des Lichts mit dem Handy. Das ist zwar „ganz nett“, jedoch selten essenziell. Allerdings entspricht das nur teilweise der Realität. Smart Homes können durch Optimierung des Energieverbrauchs Kosten senken. Auch Warnfunktionen können dazu beitragen, dass offen gelassene Fenster im Winter oder angelassenes Licht im Urlaub schneller bemerkt werden. In diesem Fall wird nun auch das Schalten des Lichts mit dem Handy von der Spielerei zum Stromkosten-Senker.</p>
 <blockquote>
 <p><strong>Hinweis (Sicherheit, Haftung &amp; Transparenz):</strong> Dieser Artikel ist eine technische Übersicht und ersetzt keine Elektroplanung oder Fachberatung. Arbeiten an elektrischen Anlagen sowie Änderungen an der Hausinstallation dürfen nur durch qualifizierte Elektrofachkräfte (bzw. unter deren Aufsicht) erfolgen. Ich biete System-Architektur &amp; Software-Umsetzung für Smart-Home-Projekte an.</p>
 </blockquote>
-<h2>1] Wie wird ein Haus smart?</h2>
+<h2>1) Wie wird ein Haus smart?</h2>
 <p>Um das zu verstehen, müssen wir zwischen zwei Welten unterscheiden – kritischer Funktionalität (Layer-1) und intelligenter Logik (Layer-2). Man kann sich das wie den Unterschied zwischen Rückenmark und Gehirn vorstellen:</p>
 <ul>
 <li><strong>Layer-1 (Rückenmark):</strong> Reflexe funktionieren immer. Wenn Sie auf einen Legostein treten, ziehen Sie den Fuß weg, bevor das Gehirn es merkt. Im Haus sind das Lichtschalter und Thermostate. Diese müssen immer funktionieren, auch wenn die zentrale „Intelligenz“ ausfällt.</li>
 <li><strong>Layer-2 (Gehirn):</strong> Hier findet die komplexe Verarbeitung statt. Was mache ich mit meinem Energieüberschuss – laufen gehen? Im Haus entscheidet das Gehirn, ob der PV-Überschuss z. B. für die Waschmaschine verwendet wird.</li>
 </ul>
 <p>PV-Anlagen und Heizungen haben heute fast standardmäßig eine eigene interne Basis-Steuerung (Layer-1) und sind somit autark funktionsfähig. Über eine Schnittstelle können sie jedoch in ein höheres Steuersystem (Layer-2) integriert werden. Jetzt bleibt noch der Rest (Lichter, Jalousien, …). Genau wie bei PV und Heizung wollen wir ein System, das als „Rückenmark“ autark ohne höheres Steuersystem (Layer-2) funktioniert, aber die Integration in ein solches ermöglicht. Um das zu erreichen, gibt es mehrere Möglichkeiten.</p>
-<h3>1.1] Basis-Steuerung (Layer-1)</h3>
+<h3>1.1) Basis-Steuerung (Layer-1)</h3>
 <p>Zuerst wollen wir die Möglichkeiten betrachten, die uns zur Verfügung stehen, wenn wir unser Haus neu errichten (oder umfassend sanieren) und somit nicht abhängig von bestehenden Lösungen sind.</p>
-<h4>1.1.1] Der Bus</h4>
+<h4>1.1.1) Der Bus</h4>
 <p>Dieser Bus hat nichts mit dem auf der Straße zu tun. Er bezeichnet vielmehr das Netz, mit dem alle Teilnehmer (in unserem Fall Lichter, Jalousien, …) verbunden sind. Anders als bei der klassischen Verkabelung, wo ein Lichtschalter einfach den Stromkreis des Lichts schließt, um es einzuschalten, sind hier Schalter und Licht Bus-Teilnehmer und somit smart.</p>
 <p>Der Schalter sendet einen Befehl an den Bus: „Teilnehmer 26523 einschalten“. „26523“ beschreibt hier die Kennung des Bus-Teilnehmers. Alle Bus-Teilnehmer empfangen diesen Befehl, aber nur Teilnehmer „26523“ (in unserem Fall das Licht) verarbeitet ihn. Um den Bus nun mit der höheren Steuerung verbinden zu können, setzen wir einfach einen weiteren Teilnehmer in den Bus, der alle Befehle mitliest und bei Bedarf Befehle in den Bus schreibt. Dieser Teilnehmer, der als Gateway bezeichnet wird, dient als Schnittstelle zum Layer-2. Der Bus an sich bildet hier Layer-1, da er autark ohne höheres Steuersystem funktioniert.</p>
-<h4>1.1.2] Die Steuerung (SPS)</h4>
+<h4>1.1.2) Die Steuerung (SPS)</h4>
 <p>Der Lichtschalter schließt hier nicht direkt den Stromkreis des Lichts, sondern einen Stromkreis der Steuerung (Input/Steuerstromkreis). Diese schließt in weiterer Folge den Stromkreis des Lichts (Output). Die Steuerung dient als „Rückenmark“, das Inputs verarbeitet und Outputs ansteuert. Gleichzeitig ist die Steuerung die Schnittstelle zu unserem Layer-2. Die Steuerung kann uns mitteilen, welche Outputs gerade angesteuert werden, und über unser Layer-2 Befehle zur Ansteuerung entgegennehmen. Dieses System bildet ebenfalls Layer-1, da es über die Steuerstromkreise auch ohne höheres Steuersystem funktioniert.</p>
 <hr/>
+<br/>
 <blockquote>
 <p><strong>Was ist jetzt besser?</strong> Um es in den Worten eines Juristen auszudrücken: „Es kommt darauf an“.</p>
 </blockquote>
 <p>Der Bus hat den Vorteil, dass er typischerweise keinen einzelnen zentralen Ausfallpunkt hat – im Gegensatz zu einer rein zentralen Steuerung, bei der ein Ausfall der Zentrale viele Funktionen gleichzeitig treffen kann. Weiters ist der Verkabelungsaufwand beim Bus oft geringer, da alle Teilnehmer am selben Bus (Kabel) hängen, anders als bei der Steuerung, wo viele Teilnehmer einzeln verbunden sind.</p>
 <p>Allerdings sind die Unterschiede in der Praxis meist weniger „schwarz/weiß“, als es auf den ersten Blick erkennbar ist. Beim Bus kann eine Unterbrechung des Buskabels je nach Topologie/Segmentierung ebenfalls größere Bereiche betreffen. Als zentrale Steuerung werden außerdem sogenannte speicherprogrammierbare Steuerungen (SPS oder englisch PLC) verwendet. Diese sind extrem robust und seit Jahrzehnten fixer Bestandteil in der Industrie, wo Ausfallsicherheit eine extrem wichtige Rolle spielt. Auch der Mehraufwand bei der Verkabelung ist in vielen Projekten geringer, als man vermuten könnte. Da Steuerstromkreise häufig im Kleinspannungsbereich (z. B. 24 V, je nach Konzept) arbeiten, können problemlos mehrere Kreise in einem Kabel realisiert werden, wodurch man die Anzahl der zu verlegenden Kabel reduziert. Ein großer Vorteil der Steuerung liegt häufig beim Preis. Da nicht jeder Teilnehmer „smart“ sein muss, können klassische Elemente (Standard-Taster) verwendet werden. Das spart Geld. Auch Steuerungen gibt es sehr preiswert.</p>
 <p>Zusammengefasst haben beide Systeme ihre Vor- und Nachteile. Preislich ist jedoch in vielen Fällen die Steuerung (SPS) attraktiver. Auch eine Mischung beider Systeme kann – je nach Projekt – Sinn ergeben.</p>
-<h3>1.2] Höheres Steuersystem (Layer-2)</h3>
+<h3>1.2) Höheres Steuersystem (Layer-2)</h3>
 <p>Wir haben nun unsere autarken Bausteine (Layer-1-Systeme). Um unser Haus wirklich smart zu machen, brauchen wir jetzt noch ein System, das alles zusammenführt. Unabhängig von den unten genannten Gesamtlösungen ist Home Assistant (HA) mein klarer Favorit bei isolierter Betrachtung von Layer-2-Systemen: offen, flexibel, lokal betreibbar und mit großer Community.</p>
 <p>Wir können Home Assistant auf unterschiedlicher Hardware installieren oder einen fertigen Controller kaufen (Home Assistant Green). Home Assistant ist Open Source und verfügt über eine riesige Community. Dadurch werden sehr viele Systeme unterstützt. Durch die Zusammenführung aller unserer Layer-1-Systeme in Home Assistant können wir alles aus einem Programm steuern. Wir können Automatisierungen schreiben, ein Energiemanagement aufsetzen und vieles mehr. Home Assistant kann vom Handy, PC oder etwaigen Wand-Terminals aus bedient werden. Noch dazu ist es sehr preiswert: Einen fertigen Controller bekommt man häufig ab ca. 150 € (je nach Händler/Angebot; Stand: Januar 2026, Preise variieren).</p>
 <blockquote>
@@ -335,32 +348,32 @@
 <li>Wenn niemand zu Hause (Präsenz) → ausgewählte Verbraucher deaktivieren und Alarm-Logik scharf schalten.</li>
 </ul>
 </blockquote>
-<h3>1.3] Das Thema Nachrüsten</h3>
+<h3>1.3) Das Thema Nachrüsten</h3>
 <p>Meist ergibt sich folgende Situation: Man rüstet eine PV-Anlage nach oder installiert eine neue Heizung. Diese haben, wie bereits erwähnt, eine eigene Basissteuerung. Meistens ist eine Integration dieser in eine Layer-2-Steuerung für viele ausreichend. Will man jedoch auch den Rest (Lichter, Jalousien, …) integrieren, steht man im Bestandsbau vor einem Problem.</p>
 <p>Einerseits könnte man natürlich eine Steuerung oder einen Bus nachrüsten, das ist allerdings mit viel Aufwand (Schremmen) und Kosten verbunden. Da das kein Nischenproblem ist, gibt es hierfür mittlerweile auch genügend Alternativlösungen. Es gibt z. B. Module, die man hinter bestehenden Lichtschaltern anbringen kann. Diese behindern die klassische Funktion in der Regel nicht, bieten aber die Möglichkeit, den Schaltstatus auszulesen oder remote zu verändern. Diese Systeme können in weiterer Folge ebenfalls in ein Layer-2-System integriert werden. Ein Beispiel für solche Nachrüstsysteme sind Komponenten auf Basis des Zigbee-Standards.</p>
 <p>Man kann Nachrüstsysteme natürlich auch von Anfang an integrieren. Jedoch ist es empfehlenswert, wenn die Möglichkeit besteht, „smart by design“ zu planen (Bus oder Steuerung). Man kann auch bei einem Neubau nie alle Eventualitäten abdecken. Da ist es gut zu wissen, dass es immer die Möglichkeit gibt, einfach nachzurüsten (ohne Kabelziehen). Wichtig hierfür ist allerdings, ein offenes Layer-2-System (wie HA) zu integrieren, um die möglichen Integrationen nicht von Grund auf einzuschränken.</p>
-<h3>1.4] Häufige Planungsfehler</h3>
+<h3>1.4) Häufige Planungsfehler</h3>
 <ul>
 <li>Kritische Funktionen nur über Layer-2 bedienbar machen</li>
 <li>Ungeeignete Layer-1-Hardware oder Standards (WLAN) als Basis für Licht/Beschattung verwenden</li>
 <li>Keine manuelle Fallback-Bedienung für kritische Funktionen vorsehen (keine manuellen Steuerstromkreise)</li>
 <li>„Alles smart“ beim Nachrüsten statt 80/20 (erst das mit echtem Nutzen)</li>
 </ul>
-<h2>2] Lösungen</h2>
+<h2>2) Lösungen</h2>
 <p>Da wir nun die Grundstruktur eines Smart Homes beleuchtet haben, stellt sich die Frage: Welche Systeme eignen sich, wenn man neu baut oder umfassend saniert? In dieser Phase haben wir den Luxus, ein System ohne „Altlasten“ integrieren zu können. Im Folgenden werden typische Lösungen diskutiert. Da ich der Überzeugung bin, dass Cloud- oder Abo-Dienste nicht Voraussetzung für Grundfunktionen sein sollten, schließe ich solche Ansätze – falls zutreffend – hier aus.</p>
-<h3>2.1] Loxone</h3>
+<h3>2.1) Loxone</h3>
 <p>Eine bekannte Lösung ist Loxone. Es vereint Layer-1 und Layer-2 zu einem System: alles aus einer Hand, gut aufeinander abgestimmt. Das hat allerdings oft einen höheren Einstiegspreis, und man entscheidet sich dabei in der Regel für ein stark „ökosystemgebundenes“ Setup: Man setzt primär auf Hardware/Komponenten aus dem Loxone-Umfeld und nutzt Integrationen zu Drittsystemen je nach Bedarf.</p>
 <p>Wollen Sie später Geräte einbinden, die im Ökosystem nicht vorgesehen sind, kann das je nach Integrationsweg zusätzlichen Aufwand oder Zusatzkosten bedeuten. Natürlich kann man Loxone auch in ein zusätzliches Layer-2 wie Home Assistant integrieren, um weitere Hersteller einzubinden – dann stellt sich aber die Frage, ob man nicht von Grund auf offen planen möchte.</p>
-<h3>2.2] KNX (mit HA)</h3>
+<h3>2.2) KNX (mit HA)</h3>
 <p>KNX ist ein klassisches Bussystem (Layer-1, wie oben erklärt). Durch den offenen Standard gibt es viele Elemente, die integriert werden können – darunter auch Gateways für Bedienung übers Handy/PC. Manche entscheiden sich bei KNX, auf ein eigenes Layer-2 zu verzichten und alles über den KNX-Bus abzubilden. Das kann technisch sehr elegant sein, wird aber je nach Funktionsumfang und Komponentenwahl schnell kostenintensiv.</p>
 <p>Die Verwendung von KNX in Verbindung mit Home Assistant ist jedoch eine starke Kombi: Somit kann man KNX auf die essenziellen Teile beschränken und hat mit Home Assistant ein leistungsstarkes und offenes Layer-2 für die Integration von Nicht-KNX-Geräten (PV, Heizung, …). Damit bleibt man flexibel und kann Kosten reduzieren.</p>
-<h3>2.3] Custom – Opta mit HA</h3>
+<h3>2.3) Custom – Opta mit HA</h3>
 <p>Dies ist mein favorisierter Ansatz. Wir nutzen eine Arduino Opta (eine offene Industrie-SPS) als robuste Basis für Licht und Jalousien (Layer-1). PV- und Heizungssysteme mit eigenem Layer-1 werden direkt in HA (Layer-2) integriert. Wir sind hier weitgehend herstellerunabhängig und können klassische Komponenten (Taster, Lampen, …) verwenden.</p>
 <p>Für komplexe Beleuchtungsszenarien lässt sich das System einfach mit DALI-2 (Licht-Standard) erweitern. DALI-2 ist ein Bus zur Steuerung von LED-Lampen und wird ab einer gewissen Komplexität/Anzahl von Leuchtgruppen oft sinnvoll. DALI-2 kann – je nach Projekt – auch in Kombination mit KNX oder anderen Systemen eingesetzt werden (die Sinnhaftigkeit sollte hier allerdings gesondert evaluiert werden).</p>
 <p>Die Custom-Lösung ist in vielen Fällen spürbar günstiger als KNX oder Komplett-Ökosysteme, bei zusätzlich hoher Flexibilität (natürlich wie immer abhängig von Umfang, Komponenten und Integrationsgrad).</p>
 <hr/>
 <p>Was in Ihrem konkreten Projekt „die beste“ Lösung ist, hängt wie immer von Anforderungen, Budget, Aufwand und Zuständigkeiten ab. Grundsätzlich empfehle ich die Trennung von kritischer Funktionalität (Layer-1) und Logik/Automatisierung (Layer-2). Die Kombination aus einer Industrie-Steuerung (Opta) und Home Assistant bietet meiner Meinung nach ein sehr gutes Preis-Leistungs-Verhältnis bei hoher Flexibilität und Zukunftssicherheit.</p>
-<h2>3] Fazit</h2>
+<h2>3) Fazit</h2>
 <p>Wenn Sie nur eine Sache aus diesem Artikel mitnehmen, dann diese:</p>
 <blockquote>
 <p>Trennen Sie <strong>kritische Funktionen</strong> (Layer-1) von <strong>Komfort &amp; Intelligenz</strong> (Layer-2).</p>
@@ -379,7 +392,7 @@
 <li>Wie viel Flexibilität wollen Sie in 5–10 Jahren noch haben? (Herstellerbindung vs. offene Standards)</li>
 </ul>
 </blockquote>
-<h3>3.1] Wenn Sie maximale Flexibilität wollen</h3>
+<h3>3.1) Wenn Sie maximale Flexibilität wollen</h3>
 <p>Wenn Sie aus einem Konzept eine umsetzbare Lösung machen wollen, lohnt sich ein früher Blick auf Umfang (Scope) und Kosten-Treiber. Gerade bei Smart Homes entstehen Budget-Sprünge selten durch „smart“ an sich, sondern durch Anzahl der Kreise, Sonderfunktionen, Integrationen und den Installationsaufwand.</p>
 <p>Anders als bei Pauschalangeboten zahlen Sie bei einer Custom-Lösung nur das, was Sie wirklich brauchen. Die Kosten teilen sich auf in:</p>
 <ul>
@@ -387,15 +400,14 @@
 <li><strong>Elektroinstallation</strong> (Ihr lokaler Elektriker)</li>
 <li><strong>System-Architektur &amp; Software</strong> (das kann ich übernehmen)</li>
 </ul>
-<h2>4] Mein Angebot</h2>
+<h2>4) Mein Angebot</h2>
 <p>Sie haben Interesse an einer Custom-Lösung, haben Fragen oder wollen nachrüsten? Ich berate Sie gerne in einem kostenlosen und unverbindlichen Erstgespräch.</p>
-<blockquote>
-<p><a aria-label="Termin buchen" href="https://termin.jle.systems" target="_blank" rel="noopener noreferrer" style="cursor:pointer"><strong>Termin buchen</strong></a> — Ihr Wunschtermin ohne Wartezeit</p>
-</blockquote>
+<p><strong>Ihr Wunschtermin ohne Wartezeit:</strong></p>
+<p><span class="disable-mdx-styles mdx-link"><a aria-label="Termin buchen" variant="secondary" href="https://termin.jle.systems" target="_blank" rel="noopener noreferrer" class="button mdx-link__button" style="cursor:pointer"><span class="mdx-link__button-content"><strong>Termin buchen</strong></span></a></span></p>
+<hr/>
 <p>Wollen Sie mich lieber per E-Mail oder WhatsApp kontaktieren?</p>
-<blockquote>
-<p><a aria-label="Kontakt" style="cursor:pointer" aria-current="false" href="//contact"><strong>Kontakt</strong></a> — alle Kontaktmöglichkeiten</p>
-</blockquote></div><!--/$--></div></div></main><footer role="contentinfo" class="site-wrapper__footer"><div class="site-wrapper__text-wrapper"><div class="site-wrapper__socials"><a aria-label="LinkedIn" href="https://www.linkedin.com/company/jlesystems" target="_blank" rel="noopener noreferrer" class="text" style="cursor:pointer"><span role="img" aria-label="linkedin" class="anticon anticon-linkedin"><svg viewBox="64 64 896 896" focusable="false" data-icon="linkedin" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M847.7 112H176.3c-35.5 0-64.3 28.8-64.3 64.3v671.4c0 35.5 28.8 64.3 64.3 64.3h671.4c35.5 0 64.3-28.8 64.3-64.3V176.3c0-35.5-28.8-64.3-64.3-64.3zm0 736c-447.8-.1-671.7-.2-671.7-.3.1-447.8.2-671.7.3-671.7 447.8.1 671.7.2 671.7.3-.1 447.8-.2 671.7-.3 671.7zM230.6 411.9h118.7v381.8H230.6zm59.4-52.2c37.9 0 68.8-30.8 68.8-68.8a68.8 68.8 0 10-137.6 0c-.1 38 30.7 68.8 68.8 68.8zm252.3 245.1c0-49.8 9.5-98 71.2-98 60.8 0 61.7 56.9 61.7 101.2v185.7h118.6V584.3c0-102.8-22.2-181.9-142.3-181.9-57.7 0-96.4 31.7-112.3 61.7h-1.6v-52.2H423.7v381.8h118.6V604.8z"></path></svg></span></a><a aria-label="Instagram" href="https://www.instagram.com/jle.systems" target="_blank" rel="noopener noreferrer" class="text" style="cursor:pointer"><span role="img" aria-label="instagram" class="anticon anticon-instagram"><svg viewBox="64 64 896 896" focusable="false" data-icon="instagram" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1 717.1 625.5 717.1 512 625.5 306.9 512 306.9zm0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7 645.3 438.6 645.3 512 585.4 645.3 512 645.3zm213.5-394.6c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9 47.9-21.3 47.9-47.9a47.84 47.84 0 00-47.9-47.9zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zm-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840c-58.3 0-183.3 4.7-235.9-16.1-18.2-7.3-31.8-16.1-45.8-30.2-14.1-14.1-22.9-27.6-30.2-45.8C179.3 695.2 184 570.3 184 512c0-58.3-4.7-183.3 16.1-235.9 7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 179.3 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2 14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512c0 58.3 4.7 183.2-16.2 235.8z"></path></svg></span></a><a aria-label="Threads" href="https://www.threads.com/@jle.systems" target="_blank" rel="noopener noreferrer" class="text" style="cursor:pointer"><span role="img" aria-label="message" class="anticon anticon-message"><svg viewBox="64 64 896 896" focusable="false" data-icon="message" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M464 512a48 48 0 1096 0 48 48 0 10-96 0zm200 0a48 48 0 1096 0 48 48 0 10-96 0zm-400 0a48 48 0 1096 0 48 48 0 10-96 0zm661.2-173.6c-22.6-53.7-55-101.9-96.3-143.3a444.35 444.35 0 00-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6.3-119.3 12.3-174.5 35.9a445.35 445.35 0 00-142 96.5c-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9A449.4 449.4 0 00112 714v152a46 46 0 0046 46h152.1A449.4 449.4 0 00510 960h2.1c59.9 0 118-11.6 172.7-34.3a444.48 444.48 0 00142.8-95.2c41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5.3-60.9-11.5-120-34.8-175.6zm-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-.6 99.6-39.7 192.9-110.1 262.7z"></path></svg></span></a><a aria-label="GitHub" href="https://github.com/jlesystems" target="_blank" rel="noopener noreferrer" class="text" style="cursor:pointer"><span role="img" aria-label="github" class="anticon anticon-github"><svg viewBox="64 64 896 896" focusable="false" data-icon="github" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0138.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path></svg></span></a></div><div class="site-wrapper__links"><a aria-label="Impressum" class="text" style="cursor:pointer" aria-current="false" href="//legal-notice">Impressum</a><a aria-label="Datenschutz" class="text" style="cursor:pointer" aria-current="false" href="//privacy-policy">Datenschutz</a><a aria-label="AGB" class="text" style="cursor:pointer" aria-current="false" href="//terms">AGB</a></div><div class="site-wrapper__info"><span class="text text__no-wrap" aria-label="© 2026 JLE Systems - Ing. Julian Lamplmair">© 2026 JLE Systems - Ing. Julian Lamplmair</span></div></div><div class="site-wrapper__image"><div class="lazy-image lazy-image__sizer" style="width:100%;--lazy-image-ar:1"></div></div></footer></div></div></div><!--/$--></div></div><!--/$--></div></div>
+<p><strong>Alle Kontaktmöglichkeiten:</strong></p>
+<p><span class="disable-mdx-styles mdx-link"><a aria-label="Kontakt" variant="secondary" class="button mdx-link__button" style="cursor:pointer" aria-current="false" href="//contact"><span class="mdx-link__button-content"><strong>Kontakt</strong></span></a></span></p></div><!--/$--></div></div></main><footer role="contentinfo" class="site-wrapper__footer"><div class="site-wrapper__text-wrapper"><div class="site-wrapper__socials"><a aria-label="LinkedIn" href="https://www.linkedin.com/company/jlesystems" target="_blank" rel="noopener noreferrer" class="text" style="cursor:pointer"><span role="img" aria-label="linkedin" class="anticon anticon-linkedin"><svg viewBox="64 64 896 896" focusable="false" data-icon="linkedin" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M847.7 112H176.3c-35.5 0-64.3 28.8-64.3 64.3v671.4c0 35.5 28.8 64.3 64.3 64.3h671.4c35.5 0 64.3-28.8 64.3-64.3V176.3c0-35.5-28.8-64.3-64.3-64.3zm0 736c-447.8-.1-671.7-.2-671.7-.3.1-447.8.2-671.7.3-671.7 447.8.1 671.7.2 671.7.3-.1 447.8-.2 671.7-.3 671.7zM230.6 411.9h118.7v381.8H230.6zm59.4-52.2c37.9 0 68.8-30.8 68.8-68.8a68.8 68.8 0 10-137.6 0c-.1 38 30.7 68.8 68.8 68.8zm252.3 245.1c0-49.8 9.5-98 71.2-98 60.8 0 61.7 56.9 61.7 101.2v185.7h118.6V584.3c0-102.8-22.2-181.9-142.3-181.9-57.7 0-96.4 31.7-112.3 61.7h-1.6v-52.2H423.7v381.8h118.6V604.8z"></path></svg></span></a><a aria-label="Instagram" href="https://www.instagram.com/jle.systems" target="_blank" rel="noopener noreferrer" class="text" style="cursor:pointer"><span role="img" aria-label="instagram" class="anticon anticon-instagram"><svg viewBox="64 64 896 896" focusable="false" data-icon="instagram" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1 717.1 625.5 717.1 512 625.5 306.9 512 306.9zm0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7 645.3 438.6 645.3 512 585.4 645.3 512 645.3zm213.5-394.6c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9 47.9-21.3 47.9-47.9a47.84 47.84 0 00-47.9-47.9zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zm-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840c-58.3 0-183.3 4.7-235.9-16.1-18.2-7.3-31.8-16.1-45.8-30.2-14.1-14.1-22.9-27.6-30.2-45.8C179.3 695.2 184 570.3 184 512c0-58.3-4.7-183.3 16.1-235.9 7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 179.3 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2 14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512c0 58.3 4.7 183.2-16.2 235.8z"></path></svg></span></a><a aria-label="Threads" href="https://www.threads.com/@jle.systems" target="_blank" rel="noopener noreferrer" class="text" style="cursor:pointer"><span role="img" aria-label="message" class="anticon anticon-message"><svg viewBox="64 64 896 896" focusable="false" data-icon="message" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M464 512a48 48 0 1096 0 48 48 0 10-96 0zm200 0a48 48 0 1096 0 48 48 0 10-96 0zm-400 0a48 48 0 1096 0 48 48 0 10-96 0zm661.2-173.6c-22.6-53.7-55-101.9-96.3-143.3a444.35 444.35 0 00-143.3-96.3C630.6 75.7 572.2 64 512 64h-2c-60.6.3-119.3 12.3-174.5 35.9a445.35 445.35 0 00-142 96.5c-40.9 41.3-73 89.3-95.2 142.8-23 55.4-34.6 114.3-34.3 174.9A449.4 449.4 0 00112 714v152a46 46 0 0046 46h152.1A449.4 449.4 0 00510 960h2.1c59.9 0 118-11.6 172.7-34.3a444.48 444.48 0 00142.8-95.2c41.3-40.9 73.8-88.7 96.5-142 23.6-55.2 35.6-113.9 35.9-174.5.3-60.9-11.5-120-34.8-175.6zm-151.1 438C704 845.8 611 884 512 884h-1.7c-60.3-.3-120.2-15.3-173.1-43.5l-8.4-4.5H188V695.2l-4.5-8.4C155.3 633.9 140.3 574 140 513.7c-.4-99.7 37.7-193.3 107.6-263.8 69.8-70.5 163.1-109.5 262.8-109.9h1.7c50 0 98.5 9.7 144.2 28.9 44.6 18.7 84.6 45.6 119 80 34.3 34.3 61.3 74.4 80 119 19.4 46.2 29.1 95.2 28.9 145.8-.6 99.6-39.7 192.9-110.1 262.7z"></path></svg></span></a><a aria-label="GitHub" href="https://github.com/jlesystems" target="_blank" rel="noopener noreferrer" class="text" style="cursor:pointer"><span role="img" aria-label="github" class="anticon anticon-github"><svg viewBox="64 64 896 896" focusable="false" data-icon="github" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0138.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path></svg></span></a></div><div class="site-wrapper__links"><a aria-label="Impressum" class="text" style="cursor:pointer" aria-current="false" href="//legal-notice">Impressum</a><a aria-label="Datenschutz" class="text" style="cursor:pointer" aria-current="false" href="//privacy-policy">Datenschutz</a><a aria-label="AGB" class="text" style="cursor:pointer" aria-current="false" href="//terms">AGB</a></div><div class="site-wrapper__info"><span class="text text__no-wrap" aria-label="© 2026 JLE Systems - Ing. Julian Lamplmair">© 2026 JLE Systems - Ing. Julian Lamplmair</span></div></div><div class="site-wrapper__image"><div class="lazy-image lazy-image__sizer" style="width:100%;--lazy-image-ar:1"></div></div></footer></div></div></div><!--/$--></div></div><!--/$--></div></div>
     </div>
   </body>
 </html>
