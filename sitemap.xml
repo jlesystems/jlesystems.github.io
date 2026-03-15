@@ -132,4 +132,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/articles/vibe-coding" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de/articles/vibe-coding" />
   </url>
+  <url>
+    <loc>https://jle.systems/de/articles/artificial-intelligence</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/articles/artificial-intelligence" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/articles/artificial-intelligence" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de/articles/artificial-intelligence" />
+  </url>
+  <url>
+    <loc>https://jle.systems/en/articles/artificial-intelligence</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/articles/artificial-intelligence" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/articles/artificial-intelligence" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de/articles/artificial-intelligence" />
+  </url>
 </urlset>
