@@ -1,0 +1,109 @@
+import{B as e}from"./index-PQrgAZjW.js";import{u as s}from"./index-CSkGM5Wf.js";const l=["/web-engineering.jpg","/software.jpg","/automation.jpg","/smart-business.jpg","/smart-home.jpg"];function i(r){const n={a:"a",blockquote:"blockquote",h1:"h1",h2:"h2",img:"img",li:"li",p:"p",strong:"strong",ul:"ul",...s(),...r.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Lösungen"}),`
+`,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Präzision trifft Innovation."})]}),`
+`,e.jsxs(n.p,{children:["Ich biete keine Standardlösungen von der Stange, sondern maßgeschneiderte Systeme, die genau dort ansetzen, wo Standardsoftware an ihre Grenzen stößt. Mein Anspruch: ",e.jsx(n.strong,{children:"Geplant wie ein Ingenieur – Gebaut wie ein Entwickler"}),"."]}),`
+`,e.jsx(n.h2,{children:"[HASH:web] 1) Web Engineering"}),`
+`,e.jsx(n.p,{children:e.jsx(n.img,{src:"/web-engineering.jpg",alt:"[AR:1/1][MW:24rem][CHMAX:24rem][FWMB]Schematische Darstellung der Webentwicklung"})}),`
+`,e.jsx(n.p,{children:e.jsx(n.strong,{children:"Der digitale Maßanzug für lokale Unternehmen (KMU)."})}),`
+`,e.jsx(n.p,{children:"Eine Website ist kein digitales Plakat, sondern ein geschäftskritisches Werkzeug. Während Agenturen oft auf Baukästen (wie WordPress) setzen, entwickle ich Webseiten mit der Präzision eines Ingenieurs: Maßgeschneiderter Code, kompromisslose Geschwindigkeit und Sicherheit."}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"High-Performance:"})," Webseiten, die schnell laden – auch bei schlechtem Handyempfang. Dies ist der wichtigste Faktor für modernes Google-Ranking."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Wartungsfreie Architektur:"})," Da keine Datenbanken oder Plugins im Hintergrund laufen, bietet die Website wenig Angriffsfläche für Hacker und benötigt keine ständigen Sicherheits-Updates."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Datenschutz & EU-Hosting:"})," Auf Wunsch Hosting ausschließlich auf europäischen Servern und Verzicht auf US-Dienste (kein Datentransfer in Drittstaaten). Das sorgt für maximale DSGVO-Konformität und macht oft nervige Cookie-Banner überflüssig."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Redesign & Legacy-Migration:"})," Ich übernehme veraltete Webseiten und transformiere sie in moderne, sichere Systeme."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Managed Hosting & Service:"}),' Ihr "Concierge-Dienst". Sie schicken mir Änderungen, ich setze sie um. Keine Login-Daten, die Sie vergessen könnten.']}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Technische SEO:"})," Saubere Strukturierung der Daten, damit lokale Kunden (z.B. in der Google-Suche oder auf Maps) Sie zuverlässig finden."]}),`
+`]}),`
+`,e.jsxs(n.blockquote,{children:[`
+`,e.jsxs(n.p,{children:[e.jsx(n.strong,{children:"Ihr Vorteil:"})," Eine Website, die so zuverlässig arbeitet wie Ihre besten Mitarbeiter – wartungsarm, sicher und blitzschnell."]}),`
+`]}),`
+`,e.jsx(n.p,{children:"Ihre spezifische Herausforderung ist nicht dabei? Perfekt. Als Ingenieur konzipiere ich auch für einzigartige Anforderungen die passende Lösung."}),`
+`,e.jsx("br",{}),`
+`,e.jsx(n.p,{children:e.jsxs(n.a,{href:"#start",children:["[BUTTON]",e.jsx(n.strong,{children:"Projekt starten"})]})}),`
+`,e.jsx(n.h2,{children:"[HASH:software] 2) Individuelle Software"}),`
+`,e.jsx(n.p,{children:e.jsx(n.img,{src:"/software.jpg",alt:"[AR:1/1][MW:24rem][CHMAX:24rem][FWMB]Schematische Darstellung der Software"})}),`
+`,e.jsx(n.p,{children:e.jsx(n.strong,{children:"Für Unternehmen und Privatpersonen."})}),`
+`,e.jsx(n.p,{children:"Gute Software ist kein Zufall. Sie muss stabil laufen, intuitiv bedienbar sein und sich nahtlos in Ihre bestehenden Prozesse einfügen. Ich entwickle Anwendungen, die exakt auf Ihre Bedürfnisse zugeschnitten sind – ohne unnötigen Ballast."}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Full-Stack Applikationen:"})," Moderne Web- und Desktop-Anwendungen für komplexe Anforderungen."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"UI/UX für Industrie:"})," Bedien­oberflächen, die auch in rauen Umgebungen sicher und einfach zu nutzen sind."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Integration von Designsystemen:"})," Verein­heitlichung technischer und optischer Aspekte (z.B. Industrial Experience) für konsistente Anwendungen."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Prozess-Automa­tisierung:"})," Digitale Workflows, die manuelle Fehlerquellen eliminieren und Zeit sparen."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"API Integration:"})," Verbindung isolierter Systeme und Überwindung von OT/IT-Barrieren mittels maßgeschneiderter Schnittstellen."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Sichere Zahlungs­systeme:"})," Implementierung von flexiblen Bezahllösungen (z.B. QR, Terminals) für innovative Verkaufsmodelle."]}),`
+`]}),`
+`,e.jsxs(n.blockquote,{children:[`
+`,e.jsxs(n.p,{children:[e.jsx(n.strong,{children:"Ihr Vorteil:"})," Software, die Ihren Anforderungen entspricht, nicht umgekehrt."]}),`
+`]}),`
+`,e.jsx(n.p,{children:"Ihre spezifische Herausforderung ist nicht dabei? Perfekt. Als Ingenieur konzipiere ich auch für einzigartige Anforderungen die passende Lösung."}),`
+`,e.jsx("br",{}),`
+`,e.jsx(n.p,{children:e.jsxs(n.a,{href:"#start",children:["[BUTTON]",e.jsx(n.strong,{children:"Projekt starten"})]})}),`
+`,e.jsx(n.h2,{children:"[HASH:automation] 3) Automa­tisierungs- & Steuerungs­technik"}),`
+`,e.jsx(n.p,{children:e.jsx(n.img,{src:"/automation.jpg",alt:"[AR:1/1][MW:24rem][CHMAX:24rem][FWMB]Schematische Darstellung der Steuerungstechnik"})}),`
+`,e.jsx(n.p,{children:e.jsx(n.strong,{children:"Intelligente Logik für Industrie- und Gebäudetechnik (SPS/MSR)."})}),`
+`,e.jsx(n.p,{children:"Egal ob komplexe Industriemaschine oder moderne Haustechnik (Heizung, Kühlung, Lüftung) – Standard-Hardware braucht ein zuverlässiges Gehirn. Ich plane und programmiere die Steuerungslogik Ihrer Anlagen, klar getrennt von der physischen Elektromontage."}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"SPS-Programmierung:"})," Maßgeschneiderte Logikimplementierung für Speicherprogrammierbare Steuerungen (z.B. im industriellen Umfeld)."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"MSR-Technik & Gebäudeautomation:"})," Programmierung von Mess-, Steuer- und Regelungstechnik für effiziente Heizungs-, Lüftungs- und Klimasysteme (HLK)."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Klare Schnittstellen:"})," Ich liefere die reine IT-Planung und Software, während Ihr Elektriker oder Anlagenbauer die physische Installation übernimmt."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Modernisierung (Retrofit):"})," Überarbeitung bestehender Steuerungslogik für mehr Energieeffizienz und moderne Vernetzung."]}),`
+`]}),`
+`,e.jsxs(n.blockquote,{children:[`
+`,e.jsxs(n.p,{children:[e.jsx(n.strong,{children:"Ihr Vorteil:"})," Exakte, energieeffiziente und sichere Steuerung Ihrer Anlagen durch ingenieurmäßig geplante Logik."]}),`
+`]}),`
+`,e.jsx(n.p,{children:"Ihre spezifische Herausforderung ist nicht dabei? Perfekt. Als Ingenieur konzipiere ich auch für einzigartige Anforderungen die passende Lösung."}),`
+`,e.jsx("br",{}),`
+`,e.jsx(n.p,{children:e.jsxs(n.a,{href:"#start",children:["[BUTTON]",e.jsx(n.strong,{children:"Projekt starten"})]})}),`
+`,e.jsx(n.h2,{children:"[HASH:business] 4) Smart Business"}),`
+`,e.jsx(n.p,{children:e.jsx(n.img,{src:"/smart-business.jpg",alt:"[AR:1/1][MW:24rem][CHMAX:24rem][FWMB]Schematische Darstellung eines intelligenten Unternehmens"})}),`
+`,e.jsx(n.p,{children:e.jsx(n.strong,{children:"Ihr vernetztes & automatisiertes Unternehmen (Industrie 4.0)."})}),`
+`,e.jsx(n.p,{children:"Ich verbinde Welten: Ihre IT (Information Technology) mit Ihrer OT (Operational Technology). Als Ingenieur mit Erfahrung in der industriellen F&E verstehe ich beide Seiten – die SPS im Schaltschrank und die Cloud-Architektur. Mein Fokus liegt auf Lösungen ohne Herstellerbindung (Vendor-Lock-in)."}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"IT/OT Kommunikation:"})," Überwindung von Schnitt­stellen­problemen zwischen Maschinen und Software."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Echtzeit-Überwachung & Kontrolle:"})," Web-Interface zur Einsicht von Maschinen­status, Fehlern und Konfigurationen."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Infrastruktur-Vernetzung (IoT):"})," Anbindung von Sensoren und Gateways zur Daten­übertragung (Edge/Cloud)."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Analyse & Voraus­schauende Wartung:"})," Früherkennung von Problemen durch Machine Learning Algorithmen (Predictive Maintenance)."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Intelligentes Energie­management:"})," Analyse und Optimierung von Verbrauchsdaten aus Steuerungen."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"KI für Unternehmen:"})," Analyse von Industriedaten mittels fort­schrittlicher Algorithmen."]}),`
+`]}),`
+`,e.jsxs(n.blockquote,{children:[`
+`,e.jsxs(n.p,{children:[e.jsx(n.strong,{children:"Ihr Vorteil:"})," Volle Transparenz über Ihre Produk­tionsdaten und Unabhängigkeit von großen Herstellern."]}),`
+`]}),`
+`,e.jsx(n.p,{children:"Ihre spezifische Herausforderung ist nicht dabei? Perfekt. Als Ingenieur konzipiere ich auch für einzigartige Anforderungen die passende Lösung."}),`
+`,e.jsx("br",{}),`
+`,e.jsx(n.p,{children:e.jsxs(n.a,{href:"#start",children:["[BUTTON]",e.jsx(n.strong,{children:"Projekt starten"})]})}),`
+`,e.jsx(n.h2,{children:"[HASH:home] 5) Smart Home"}),`
+`,e.jsx(n.p,{children:e.jsx(n.img,{src:"/smart-home.jpg",alt:"[AR:1/1][MW:24rem][CHMAX:24rem][FWMB]Schematische Darstellung eines intelligenten Hauses"})}),`
+`,e.jsx(n.p,{children:e.jsx(n.strong,{children:"Ihr vernetztes & unabhängiges Zuhause."})}),`
+`,e.jsx(n.p,{children:"Moderne Technologie soll Ihnen dienen, nicht dem Hersteller. Im privaten Bereich fokussiere ich mich auf Datenschutz und Autarkie. Ihre Daten gehören Ihnen, nicht der Cloud eines Tech-Giganten."}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Private Cloud:"})," Ihre eigene Cloud für Fotos, Dateien und Backups – sicher in Ihrem Zuhause."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Private KI (Sprach­assistenten):"})," Sprachassistenten und KI-Funktionen, die lokal laufen und keine Gespräche ins Internet senden."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Haus-Automa­tisierung:"})," Vernetzung von Licht, Heizung und Beschattung über herstellerunabhängige Standards."]}),`
+`,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Intelligentes Energie­management:"})," Optimierung und Visualisierung der Energieflüsse im Haushalt."]}),`
+`]}),`
+`,e.jsxs(n.blockquote,{children:[`
+`,e.jsxs(n.p,{children:[e.jsx(n.strong,{children:"Ihr Vorteil:"})," Ein Smart Home, das auch ohne Internet funktioniert und Ihre Privatsphäre respektiert."]}),`
+`]}),`
+`,e.jsx(n.p,{children:"Ihre spezifische Herausforderung ist nicht dabei? Perfekt. Als Ingenieur konzipiere ich auch für einzigartige Anforderungen die passende Lösung."}),`
+`,e.jsx("br",{}),`
+`,e.jsx(n.p,{children:e.jsxs(n.a,{href:"#start",children:["[BUTTON]",e.jsx(n.strong,{children:"Projekt starten"})]})}),`
+`,e.jsx(n.h2,{children:"Strategische Beratung"}),`
+`,e.jsx(n.p,{children:e.jsx(n.strong,{children:"Ein guter Plan spart Zeit und Geld."})}),`
+`,e.jsx(n.p,{children:"Bevor die erste Zeile Code geschrieben wird, muss das Konzept stehen. Aufgrund meiner Erfahrung als technischer Leiter und Entwickler berate ich Sie ehrlich zur Machbarkeit und Umsetzung."}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsx(n.li,{children:"Technische Machbarkeits­analysen"}),`
+`,e.jsx(n.li,{children:"Auswahl der richtigen Technologie-Stacks"}),`
+`,e.jsx(n.li,{children:'Beratung zu "Make or Buy" Entscheidungen'}),`
+`]}),`
+`,e.jsx(n.h2,{children:"[HASH:start] Ihr Projekt starten"}),`
+`,e.jsx(n.p,{children:"Haben Sie eine konkrete Herausforderung oder erst eine vage Idee? Lassen Sie uns darüber sprechen."}),`
+`,e.jsx(n.p,{children:e.jsx(n.strong,{children:"Kostenloses und unverbindliches Erstgespräch vereinbaren:"})}),`
+`,e.jsx(n.p,{children:e.jsxs(n.a,{href:"https://termin.jle.systems",children:["[BUTTON]",e.jsx(n.strong,{children:"Termin buchen"})]})}),`
+`,e.jsx(n.h2,{children:"Kontakt"}),`
+`,e.jsx(n.p,{children:"Sie bevorzugen E-Mail oder Telefon? Alle Wege finden Sie hier:"}),`
+`,e.jsx(n.p,{children:e.jsx(n.strong,{children:"Zur Kontaktseite:"})}),`
+`,e.jsx(n.p,{children:e.jsxs(n.a,{href:"/contact",children:["[BUTTON]",e.jsx(n.strong,{children:"Kontakt"})]})}),`
+`,e.jsx(n.h2,{children:"Artikel"}),`
+`,e.jsx(n.p,{children:"Wissen schafft Vertrauen. Hier finden Sie Einblicke in meine Arbeitsweise, technische Hintergründe und Neuigkeiten aus der Welt der Entwicklung."}),`
+`,e.jsx(n.p,{children:e.jsx(n.strong,{children:"Fachwissen, Tutorials und Projekt-Einblicke:"})}),`
+`,e.jsx(n.p,{children:e.jsxs(n.a,{href:"/articles",children:["[BUTTON]",e.jsx(n.strong,{children:"Artikel"})]})})]})}function d(r={}){const{wrapper:n}={...s(),...r.components};return n?e.jsx(n,{...r,children:e.jsx(i,{...r})}):i(r)}export{d as default,l as images};
