@@ -1,0 +1,6 @@
+import{B as e}from"./index-BrFqFa4T.js";import{A as i}from"./article-list-BYBaJjlx.js";import{u as o}from"./index-CAk41A3o.js";import"./genStyleUtils-BSeq17CV.js";import"./get-keywords-array-CnCAmZk4.js";import"./meta-tpmDTSk_.js";import"./route-to-file-path-BF1vtPrz.js";import"./mdx-CXGbJfP0.js";import"./markdown-renderer.lazy-vqkLIw4C.js";import"./with-animation-frame-BTkCSlSR.js";import"./button-BKi7DWfV.js";import"./CloseOutlined-BHtYT6lT.js";function r(t){const n={h1:"h1",hr:"hr",p:"p",strong:"strong",...o(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Articles"}),`
+`,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Expertise, Guides, and Project Insights"})]}),`
+`,e.jsx(n.p,{children:"Knowledge builds trust. Here I share deep dives, technical background knowledge, and insights from my daily work as an engineer and developer. Whether it's a concrete hands-on project, the analysis of a system architecture, or a conceptual excursion into new technologies – here I document what is technically feasible when you work according to a clear principle: Designed like an engineer, built like a developer."}),`
+`,e.jsx(n.hr,{}),`
+`,e.jsx("br",{}),`
+`,e.jsx(i,{})]})}function f(t={}){const{wrapper:n}={...o(),...t.components};return n?e.jsx(n,{...t,children:e.jsx(r,{...t})}):r(t)}export{f as default};

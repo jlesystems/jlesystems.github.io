@@ -1,1 +1,0 @@
-import{m as r}from"./mdx-CFQHpHTF.js";import"./markdown-renderer.lazy-D4QzjUdv.js";import"./index-pY8Dv-io.js";import"./route-to-file-path-BPsNUjcJ.js";function n(o){return r(o)}export{n as makePreloadContent};
