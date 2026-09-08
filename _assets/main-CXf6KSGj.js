@@ -1,6 +1,0 @@
-import{B as e}from"./index-BnY9g1fa.js";import{A as s}from"./article-list-BrN7O2Mj.js";import{u as r}from"./index--ovBqOPF.js";import"./genStyleUtils-C5Bc7vnn.js";import"./get-keywords-array-CnCAmZk4.js";import"./meta-DnvFa4KY.js";import"./route-to-file-path-BQlLdVu8.js";import"./mdx-j03MOe8k.js";import"./markdown-renderer.lazy-CaK9x7Oz.js";import"./with-animation-frame-B8v7ll3q.js";import"./button-52AEiX4R.js";import"./CloseOutlined-CxxEMhfX.js";function i(t){const n={h1:"h1",hr:"hr",p:"p",strong:"strong",...r(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(n.h1,{children:"Artikel"}),`
-`,e.jsxs(n.p,{children:["[SUBTITLE] ",e.jsx(n.strong,{children:"Fachwissen, Leitfäden und Projekt-Insights"})]}),`
-`,e.jsx(n.p,{children:"Wissen schafft Vertrauen. Hier teile ich Deep-Dives, technisches Hintergrundwissen und Erkenntnisse aus meinem Alltag als Ingenieur und Entwickler. Ob konkretes Praxisprojekt, die Analyse einer Systemarchitektur oder ein gedanklicher Ausflug in neue Technologien – hier dokumentiere ich, was technisch machbar ist, wenn man nach einem klaren Prinzip arbeitet: Geplant wie ein Ingenieur, gebaut wie ein Entwickler."}),`
-`,e.jsx(n.hr,{}),`
-`,e.jsx("br",{}),`
-`,e.jsx(s,{})]})}function k(t={}){const{wrapper:n}={...r(),...t.components};return n?e.jsx(n,{...t,children:e.jsx(i,{...t})}):i(t)}export{k as default};
