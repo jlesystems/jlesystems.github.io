@@ -13,30 +13,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de" />
   </url>
   <url>
-    <loc>https://jle.systems/de/software</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/software" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/software" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de/software" />
-  </url>
-  <url>
-    <loc>https://jle.systems/en/software</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/software" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/software" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de/software" />
-  </url>
-  <url>
-    <loc>https://jle.systems/de/automation</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/automation" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/automation" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de/automation" />
-  </url>
-  <url>
-    <loc>https://jle.systems/en/automation</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/automation" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/automation" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de/automation" />
-  </url>
-  <url>
     <loc>https://jle.systems/de/solutions</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/solutions" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/solutions" />
@@ -167,5 +143,29 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/articles/artificial-intelligence" />
     <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/articles/artificial-intelligence" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de/articles/artificial-intelligence" />
+  </url>
+  <url>
+    <loc>https://jle.systems/de/solutions/software</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/solutions/software" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/solutions/software" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de/solutions/software" />
+  </url>
+  <url>
+    <loc>https://jle.systems/en/solutions/software</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/solutions/software" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/solutions/software" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de/solutions/software" />
+  </url>
+  <url>
+    <loc>https://jle.systems/de/solutions/automation</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/solutions/automation" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/solutions/automation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de/solutions/automation" />
+  </url>
+  <url>
+    <loc>https://jle.systems/en/solutions/automation</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jle.systems/de/solutions/automation" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://jle.systems/en/solutions/automation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jle.systems/de/solutions/automation" />
   </url>
 </urlset>
